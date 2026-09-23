@@ -44,7 +44,7 @@
       }
     },
     "footer": {
-      "description": "Still deg i kø. Spill låta di. Eller bare bli og lytt - folk som deler musikk sammen.",
+      "description": "Still deg i kø. Spill låta di. Eller bare bli og lytt – folk som deler musikk sammen.",
       "product": "Produkt",
       "productLinks": {
         "explore": "Utforsk rom",
@@ -65,10 +65,10 @@
   "NotFound": {
     "title": "404",
     "eyebrow": "Signal tapt",
-    "heading": "Denne siden finnes ikke",
+    "heading": "Denne siden er av lufta",
     "description": "Det finnes ingen side her. Gå tilbake til et rom som er live, eller start fra forsiden.",
     "backHome": "Tilbake til forsiden",
-    "exploreRooms": "Utforsk aktive rom",
+    "exploreRooms": "Utforsk rom",
     "footnote": "Økten din er fortsatt i orden. Du kan trygt fortsette herfra.",
     "home": "Hjem"
   },
@@ -78,7 +78,7 @@
     "heading": "Noe gikk galt på denne siden",
     "description": "Appen støtte på en uventet feil da denne visningen ble lastet.",
     "tryAgain": "Prøv igjen",
-    "backHome": "Tilbake hjem",
+    "backHome": "Tilbake til forsiden",
     "footnote": "Hvis dette fortsetter, oppdater appen eller gå tilbake til forsiden.",
     "footnoteWithDigest": "Feilreferanse: {digest}",
     "home": "Hjem"
@@ -86,13 +86,13 @@
   "common": {
     "loading": "Laster inn musikkopplevelsen din...",
     "loadingPageTitle": "Klargjør neste side",
-    "loadingPageSubtitle": "Vi gjør siden klar og setter riktig stemning.",
+    "loadingPageSubtitle": "Vi finjusterer grensesnittet og setter riktig stemning.",
     "loadingRoomTitle": "Blir med i rommet",
     "loadingRoomSubtitle": "Setter stemningen, kobler sammen lytterne og gjør neste spor klart.",
     "loadingAuthTitle": "Klargjør tilgangen din",
-    "loadingAuthSubtitle": "Vi gjør klart så du kan logge inn raskt og sikkert.",
+    "loadingAuthSubtitle": "Vi gjør klart så du kan logge inn enkelt og sikkert.",
     "loadingSessionTitle": "Gjenoppretter økten din",
-    "loadingSessionSubtitle": "Et øyeblikk mens vi bekrefter kontoen din og henter deg tilbake.",
+    "loadingSessionSubtitle": "Et øyeblikk mens vi bekrefter kontoen din og henter tilbake opplevelsen din.",
     "loadingLogoutTitle": "Logger deg ut",
     "loadingLogoutSubtitle": "Vi avslutter økten din trygt og gjør klart til neste besøk.",
     "close": "Lukk"
@@ -120,9 +120,9 @@
       "recipientSearching": "Leter etter bruker...",
       "recipientHint": "Skriv inn nøyaktig brukernavn til personen som skal få gaven.",
       "recipientSelfError": "Du kan ikke sende denne gaven til din egen konto.",
-      "recipientLookupError": "Vi kunne ikke finne denne brukeren akkurat nå.",
+      "recipientLookupError": "Vi fant ikke den brukeren akkurat nå.",
       "messageLabel": "Melding",
-      "messagePlaceholder": "Skriv en melding som følger med gaven.",
+      "messagePlaceholder": "Skriv en valgfri melding som følger med gaven.",
       "messageHint": "Meldingen vises i gavevinduet hos mottakeren.",
       "anonymousLabel": "Send anonymt",
       "anonymousHint": "Navnet ditt skjules både for mottakeren og i kunngjøringen i romchatten.",
@@ -133,7 +133,7 @@
       "targetModeUserTitle": "Gi til én person",
       "targetModeUserHint": "Send abonnementet til én bestemt konto.",
       "targetModeRoomTitle": "Del ut i rommet",
-      "targetModeRoomHint": "Del månedlige gaveabonnementer med aktive folk i rommet.",
+      "targetModeRoomHint": "Del ut månedlige gaveabonnementer til aktive folk i rommet.",
       "roomCountLabel": "Antall gaveabonnementer",
       "roomCountHint": "Velg mellom 1 og 100 månedlige gaveabonnementer som skal deles ut i dette rommet.",
       "roomCountAutoAdjustHint": "Hvis færre kvalifiserte brukere er pålogget, justeres betalingen automatisk til høyeste tilgjengelige antall før du betaler.",
@@ -144,21 +144,21 @@
       "roomPreviewTitle": "{count, plural, one {# månedlig gaveabonnement} other {# månedlige gaveabonnementer}}",
       "roomPreviewBody": "Vi reserverer automatisk opptil {count, plural, one {# kvalifisert aktiv person} other {# kvalifiserte aktive personer}} i dette rommet før betalingen åpnes.",
       "recipientMeta": "Nivå {level} • {fans, plural, one {# fan} other {# fans}}",
-      "recipientSubscriptionActive": "Abonnementet er aktivt til {date}. Denne gaven legger til {quantity}.",
-      "recipientSubscriptionActiveNoEnd": "Denne kontoen har allerede et aktivt abonnement. Denne gaven legger til {quantity}.",
-      "recipientEmpty": "Skriv inn et brukernavn for å se kontoen.",
+      "recipientSubscriptionActive": "Abonnementet er aktivt til {date}. Denne gaven kommer i tillegg med {quantity}.",
+      "recipientSubscriptionActiveNoEnd": "Denne kontoen har allerede et aktivt abonnement. Denne gaven kommer i tillegg med {quantity}.",
+      "recipientEmpty": "Skriv inn et brukernavn for å forhåndsvise kontoen.",
       "submitting": "Åpner betaling...",
       "submit": "Fortsett til betaling",
-      "submitRoom": "Fortsett med romgaver",
+      "submitRoom": "Fortsett med gaveabonnementer i rommet",
       "close": "Lukk",
       "submitError": "Vi kunne ikke starte denne gaven akkurat nå.",
       "diamondsCheckoutSuccess": "Betalingen er bekreftet. Diamantene leveres automatisk til den valgte kontoen om et øyeblikk.",
       "subscriptionCheckoutSuccess": "Betalingen er bekreftet. Abonnementet leveres automatisk til den valgte kontoen om et øyeblikk.",
-      "subscriptionRoomCheckoutSuccess": "Betalingen er bekreftet. Gaveabonnementene deles automatisk ut så snart Stripe er ferdig.",
+      "subscriptionRoomCheckoutSuccess": "Betalingen er bekreftet. Gaveabonnementene deles automatisk ut så snart Stripe har fullført belastningen.",
       "summary": {
         "title": "Gaveoversikt",
         "diamonds": "{amount} diamanter",
-        "diamondsBody": "Betalingen åpnes i Stripe, og diamantene leveres automatisk.",
+        "diamondsBody": "Betalingen åpnes i Stripe, og diamantene leveres automatisk til mottakeren.",
         "subscriptionMonthly": "1 måneds abonnement",
         "subscriptionAnnual": "1 års abonnement",
         "subscriptionBody": "Betalingen åpnes i Stripe som en engangsbetaling uten automatisk fornyelse. Abonnementet aktiveres når betalingen er bekreftet.",
@@ -199,8 +199,8 @@
   "inventoryGrant": {
     "receivedDialog": {
       "eyebrow": "Nytt i samlingen din",
-      "title": "Du fikk en gjenstand",
-      "batchTitle": "Du fikk {count} gjenstander",
+      "title": "Gjenstand mottatt",
+      "batchTitle": "{count} gjenstander mottatt",
       "description": "{item} ble lagt til i samlingen din under {category}.",
       "batchDescription": "{count} {category} ble lagt til i samlingen din.",
       "categoryLabel": "Type",
@@ -249,7 +249,7 @@
       "captchaInvalid": "Vi kunne ikke bekrefte CAPTCHA-en. Prøv igjen.",
       "captchaUnavailable": "CAPTCHA er ikke tilgjengelig akkurat nå. Prøv igjen om litt.",
       "emailAlreadyInUse": "Det finnes allerede en konto med denne e-postadressen. Logg inn eller bruk en annen adresse.",
-      "suspiciousEmailBlocked": "Bruk en gyldig e-postadresse for å opprette en konto.",
+      "suspiciousEmailBlocked": "Bruk en ekte e-postadresse for å opprette kontoen din.",
       "submit": "Opprett konto",
       "submitting": "Oppretter konto...",
       "hasAccount": "Har du allerede en konto?",
@@ -261,7 +261,7 @@
       "strengthVeryStrong": "Svært sterk",
       "errorUsernameMin": "Minst 3 tegn",
       "errorUsernameMax": "Maksimalt 14 tegn",
-      "errorUsernameRegex": "Bruk kun bokstaver, tall, punktum, understreker og bindestreker. Mellomrom er ikke tillatt.",
+      "errorUsernameRegex": "Bruk kun bokstaver, tall, punktum, understreker og bindestreker, uten mellomrom.",
       "errorEmail": "Ugyldig e-postadresse",
       "errorPasswordMin": "Minst 8 tegn",
       "errorPasswordMax": "Maksimalt 72 tegn",
@@ -275,7 +275,7 @@
       "errorUsernameReserved": "Dette brukernavnet er reservert og kan ikke brukes."
     },
     "login": {
-      "subtitle": "Logg inn og hopp tilbake i rommet",
+      "subtitle": "Logg inn og bli med i rommet igjen",
       "continueWithDiscord": "Fortsett med Discord",
       "connectingDiscord": "Kobler til Discord...",
       "or": "eller",
@@ -296,7 +296,7 @@
       "captchaDescription": "Vi må bekrefte at denne innloggingen faktisk er din før vi fortsetter.",
       "captchaError": "Fullfør CAPTCHA-en for å fortsette.",
       "captchaInvalid": "Vi kunne ikke bekrefte CAPTCHA-en. Prøv igjen.",
-      "captchaUnavailable": "Vi kunne ikke bekrefte sikkerhetskontrollen akkurat nå. Prøv igjen om litt.",
+      "captchaUnavailable": "Vi kunne ikke bekrefte sikkerhetssjekken akkurat nå. Prøv igjen om litt.",
       "captchaRequiredFailedAttempts": "Vi oppdaget flere mislykkede innloggingsforsøk. Fullfør CAPTCHA-en for å fortsette.",
       "captchaRequiredNewDevice": "Vi oppdaget en innlogging fra en ny enhet eller et nytt sted. Fullfør CAPTCHA-en for å fortsette.",
       "captchaRequiredSuspicious": "Vi oppdaget uvanlig aktivitet rundt denne innloggingen og trenger en ekstra bekreftelse før vi fortsetter.",
@@ -306,7 +306,7 @@
       "unexpectedError": "Vi kunne ikke logge deg inn akkurat nå.",
       "socialError": "Vi kunne ikke starte innlogging med sosial konto akkurat nå.",
       "socialCanceled": "Innloggingsvinduet ble lukket før det var ferdig.",
-      "userBanned": "Denne kontoen er utestengt fra WavezFM. Kontakt teamet hvis du mener dette er feil.",
+      "userBanned": "Denne kontoen er suspendert fra WavezFM. Kontakt teamet hvis du mener dette er feil.",
       "magicLink": "Logg inn med en e-postlenke",
       "magicLinkSending": "Sender lenke...",
       "magicLinkSent": "Vi sendte en innloggingslenke til {email}. Sjekk innboksen din.",
@@ -334,7 +334,7 @@
       "unexpectedError": "Vi kunne ikke lagre brukernavnet ditt akkurat nå.",
       "errorUsernameMin": "Bruk minst 3 tegn.",
       "errorUsernameMax": "Bruk maksimalt 14 tegn.",
-      "errorUsernameRegex": "Bruk kun bokstaver, tall, punktum, understreker og bindestreker. Mellomrom er ikke tillatt.",
+      "errorUsernameRegex": "Bruk kun bokstaver, tall, punktum, understreker og bindestreker, uten mellomrom.",
       "errorUsernameReserved": "Dette brukernavnet er reservert og kan ikke brukes."
     },
     "twoFactor": {
@@ -393,7 +393,7 @@
       "goToLogin": "Tilbake til innlogging",
       "successTitle": "Passord oppdatert!",
       "successSubtitle": "Passordet er tilbakestilt. Du kan logge inn igjen nå.",
-      "missingEmail": "Skriv inn e-postadressen til kontoen for å fortsette.",
+      "missingEmail": "Skriv inn e-postadressen til kontoen for å fortsette med gjenoppretting av passordet.",
       "invalidCode": "Koden er ugyldig. Kontroller de seks sifrene og prøv igjen.",
       "expiredCode": "Koden har utløpt. Be om en ny kode og prøv igjen.",
       "tooManyAttempts": "Du har brukt opp forsøkene dine. Be om en ny kode for å fortsette.",
@@ -473,7 +473,7 @@
     },
     "emptyTitle": "Ingen rom ennå",
     "emptySubtitle": "Opprett det første rommet og sett i gang musikken på WavezFM.",
-    "noResults": "Ingen rom matcher søket.",
+    "noResults": "Ingen rom samsvarer med dette søket.",
     "noResultsSubtitle": "Prøv et annet søk, eller fjern filteret for å se alle rom.",
     "people": "Personer",
     "host": "Vert",
@@ -521,7 +521,7 @@
     "tabs": {
       "all": "Alle",
       "favorites": "Favoritter",
-      "private": "Private"
+      "private": "Privat"
     },
     "pagination": {
       "previous": "Forrige side",
@@ -529,7 +529,7 @@
       "pageLabel": "Side {page}"
     },
     "card": {
-      "emptyTitle": "Ingen spiller akkurat nå",
+      "emptyTitle": "Ingen spiller akkurat nå.",
       "externalMediaTrack": "{provider} vises på skjermen",
       "waitingTitle": "Ingenting spilles ennå",
       "favorite": "Favoritt",
@@ -547,7 +547,7 @@
       "fallbackTitle": "Rom",
       "nowPlaying": "Spilles nå: {title} – {artist}",
       "stats": "{owner} • {listeners} lyttere • {queue} i kø",
-      "notFound": "Rommet ble ikke funnet.",
+      "notFound": "Fant ikke rommet.",
       "loadError": "Vi kunne ikke laste inn rommet akkurat nå.",
       "panelLabel": "Rompanel",
       "closePanel": "Lukk",
@@ -569,7 +569,7 @@
       "messageJustNow": "Akkurat nå"
     },
     "create": {
-      "close": "Lukk opprett rom",
+      "close": "Lukk vinduet for å opprette rom",
       "title": "Opprett rom",
       "subtitle": "Sett stemningen, velg en unik romadresse og start fellesskapet ditt live.",
       "usage": "{count}/{limit}",
@@ -610,7 +610,7 @@
       "contextLoadError": "Vi kunne ikke laste inn romdata akkurat nå.",
       "playlistLoadError": "Vi kunne ikke laste inn spillelisten for rommet akkurat nå.",
       "playlistChangeError": "Vi kunne ikke bytte den aktive spillelisten akkurat nå.",
-      "playlistRequired": "Velg en spilleliste før du bruker grab.",
+      "playlistRequired": "Velg en spilleliste før du bruker Grab.",
       "grabError": "Vi kunne ikke lagre dette sporet i spillelisten akkurat nå.",
       "favoriteError": "Vi kunne ikke oppdatere denne romfavoritten akkurat nå.",
       "deleteMessageError": "Vi kunne ikke fjerne denne meldingen akkurat nå.",
@@ -627,14 +627,14 @@
         "ROOM_PERMISSION_ATTACH_CHAT_MEDIA": "Du kan ikke legge ved bilder eller GIF-er i chatten i dette rommet.",
         "ROOM_PERMISSION_JOIN_QUEUE": "Du har ikke tillatelse til å bli med i DJ-køen i dette rommet.",
         "ROOM_PERMISSION_MUTE_USER": "Du har ikke tillatelse til å dempe brukere i dette rommet.",
-        "ROOM_PERMISSION_KICK_USER": "Du har ikke tillatelse til å fjerne brukere fra dette rommet.",
+        "ROOM_PERMISSION_KICK_USER": "Du har ikke tillatelse til å kaste ut brukere i dette rommet.",
         "ROOM_PERMISSION_BAN_USER": "Du har ikke tillatelse til å utestenge brukere i dette rommet.",
         "ROOM_PERMISSION_CLEAR_CHAT": "Du har ikke tillatelse til å tømme chatten i dette rommet.",
         "ROOM_PERMISSION_MANAGE_QUEUE": "Du har ikke tillatelse til å administrere DJ-køen i dette rommet.",
         "ROOM_PERMISSION_MANAGE_EXTERNAL_MEDIA": "Du har ikke tillatelse til å administrere eksterne medier i dette rommet.",
-        "ROOM_PERMISSION_MANAGE_CUSTOM_THEME": "Du kan ikke redigere det egendefinerte temaet for dette rommet.",
+        "ROOM_PERMISSION_MANAGE_CUSTOM_THEME": "Du har ikke tillatelse til å redigere det egendefinerte temaet for dette rommet.",
         "ROOM_PERMISSION_MANAGE_POLLS": "Du har ikke tillatelse til å opprette avstemninger i dette rommet.",
-        "ROOM_PERMISSION_CREATE_EVENTS": "Du kan ikke opprette arrangementer i dette rommet.",
+        "ROOM_PERMISSION_CREATE_EVENTS": "Du har ikke tillatelse til å opprette arrangementer i dette rommet.",
         "ROOM_EXTERNAL_MEDIA_ADMIN_ONLY": "Kun administratorer kan tillate eksterne medier i et rom.",
         "ROOM_EXTERNAL_MEDIA_DISABLED": "Eksterne medier er deaktivert på plattformen.",
         "ROOM_EXTERNAL_MEDIA_ROOM_DISABLED": "Eksterne medier er ikke aktivert for dette rommet.",
@@ -648,13 +648,13 @@
         "ROOM_PERMISSION_VIEW_AUDIT_LOGS": "Du har ikke tillatelse til å se romloggene.",
         "ROOM_PERMISSION_CLEAR_AUDIT_LOGS": "Du har ikke tillatelse til å tømme romloggene.",
         "ROOM_PERMISSION_DELETE_ROOM": "Du har ikke tillatelse til å slette dette rommet.",
-        "ROOM_HOST_TRANSFER_REQUIRED": "Overfør vertsrollen til en annen bruker før du kan fjerne verten.",
+        "ROOM_HOST_TRANSFER_REQUIRED": "For å degradere verten må du først sette en annen person til å styre rommet.",
         "ROOM_ROLE_LIMIT_REACHED": "Denne rollen har allerede nådd maksgrensen for dette rommet.",
         "ROOM_CHAT_FORBIDDEN": "Du har ikke tillatelse til å sende meldinger i dette rommet.",
-        "ROOM_STAFF_CHAT_FORBIDDEN": "Bare rompersonalet kan sende meldinger i personalchatten.",
+        "ROOM_STAFF_CHAT_FORBIDDEN": "Kun rompersonalet kan sende meldinger i personalchatten.",
         "ROOM_STAFF_REPLY_FORBIDDEN": "Svar på personalmeldinger må sendes i personalchatten.",
-        "ROOM_BOT_CHAT_FORBIDDEN": "Denne romboten har ikke tillatelse til å sende meldinger.",
-        "ROOM_BOT_PERMISSION_DENIED": "Denne romboten mangler den nødvendige tillatelsen.",
+        "ROOM_BOT_CHAT_FORBIDDEN": "Dette rombottokenet kan ikke sende chatmeldinger.",
+        "ROOM_BOT_PERMISSION_DENIED": "Dette rombottokenet har ikke den nødvendige tillatelsen.",
         "ROOM_BOT_MANAGE_FORBIDDEN": "Denne romboten kan ikke utføre denne handlingen.",
         "ROOM_POLLS_DISABLED": "Avstemninger er deaktivert akkurat nå.",
         "ROOM_POLL_NOT_ACTIVE": "Denne avstemningen er ikke lenger aktiv.",
@@ -670,7 +670,7 @@
         "ROOM_REPLY_TARGET_NOT_FOUND": "Meldingen du svarte på finnes ikke lenger.",
         "ROOM_LINKS_BLOCKED": "Lenker er blokkert i dette rommet.",
         "ROOM_LINK_PATTERN_BLOCKED": "Denne lenken er blokkert i dette rommet ({pattern}).",
-        "ROOM_WORD_BLOCKED": "Denne meldingen inneholder et blokkert ord eller uttrykk.",
+        "ROOM_WORD_BLOCKED": "Denne meldingen inneholder et ord som er blokkert i dette rommet.",
         "ROOM_GLOBAL_WORD_BLOCKED": "Denne meldingen inneholder et ord som er blokkert av den globale modereringen.",
         "ROOM_UNSAFE_MEDIA_BLOCKED": "Bilde- eller GIF-lenker fra voksen-/18+-kilder er ikke tillatt i chatten.",
         "ROOM_QUEUE_LOCKED": "DJ-køen er låst for vanlige brukere.",
@@ -689,7 +689,7 @@
         "QUEUE_CURRENT_DJ_MOVE_FORBIDDEN": "Den nåværende DJ-en kan ikke flyttes mens musikken spilles.",
         "PLAYBACK_TRACK_REQUIRED": "Det spilles ingen spor akkurat nå.",
         "PLAYBACK_SKIP_FORBIDDEN": "Du har ikke tillatelse til å hoppe over sporet som spilles.",
-        "ROOM_CURRENT_DJ_VOTE_FORBIDDEN": "DJ-en som spiller nå, kan ikke stemme på eller grabbe sitt eget spor.",
+        "ROOM_CURRENT_DJ_VOTE_FORBIDDEN": "DJ-en som spiller nå, kan ikke stemme på eller bruke Grab på sitt eget spor.",
         "VOTE_TYPE_INVALID": "Stemmetypen er ugyldig.",
         "ROOM_GRAB_DISABLED_EXTERNAL_MEDIA": "Grab er deaktivert mens eksterne medier er aktive i dette rommet.",
         "ROOM_MODERATION_SELF_FORBIDDEN": "Du kan ikke moderere deg selv.",
@@ -697,7 +697,7 @@
         "ROOM_MODERATION_PLATFORM_ROLE_FORBIDDEN": "Du kan ikke moderere en bruker som er beskyttet av plattformteamet.",
         "ROOM_MODERATION_ROLE_FORBIDDEN": "Du kan ikke moderere en bruker med samme eller høyere rolle.",
         "ROOM_CAPACITY_REACHED": "Rommet har nådd maks kapasitet.",
-        "ROOM_BOT_ROOM_MISMATCH": "Denne rombotens token er ikke gyldig for det forespurte rommet.",
+        "ROOM_BOT_ROOM_MISMATCH": "Dette rombottokenet er ikke gyldig for det forespurte rommet.",
         "ROOM_ID_REQUIRED": "En romidentifikator er påkrevd.",
         "NOT_IN_ROOM": "Du er ikke i et rom.",
         "WS_MESSAGE_TOO_LARGE": "Meldingen du sendte er for stor.",
@@ -711,7 +711,7 @@
         "WS_AUTH_REQUIRED": "Autentisering er påkrevd.",
         "ROOM_BOT_COMMAND_FORBIDDEN": "Denne romboten kan ikke bruke kommandoen {command}.",
         "WS_UNKNOWN_COMMAND": "Ukjent kommando: {command}.",
-        "INVALID_INVENTORY_CATEGORY": "Velg en gyldig type.",
+        "INVALID_INVENTORY_CATEGORY": "Velg en gyldig gjenstandstype.",
         "ADMIN_INVENTORY_ITEM_NOT_FOUND": "Denne gjenstanden finnes ikke i katalogen.",
         "INVALID_INVENTORY_EXPIRES_AT": "Velg en gyldig fremtidig utløpsdato.",
         "USER_ALREADY_OWNS_ITEM": "Denne brukeren eier allerede denne gjenstanden."
@@ -742,7 +742,7 @@
       "versionBannerDismiss": "Lukk versjonsmelding",
       "memberSince": "Medlem siden",
       "lastSeen": "Sist aktiv",
-      "neverActive": "Ingen aktivitet registrert",
+      "neverActive": "Ingen registrert aktivitet",
       "lastSeenPrivacy": {
         "recently": "Sist sett nylig",
         "one_week_ago": "Sist sett for én uke siden",
@@ -760,7 +760,7 @@
         "subtitle": "IP-adressen din brukes til å velge et startflagg. Deretter lagres valget ditt på profilen.",
         "searchPlaceholder": "Søk etter land...",
         "unknown": "Ingen flagg valgt",
-        "saving": "Lagrer...",
+        "saving": "Lagrer",
         "saveError": "Kunne ikke lagre flagget.",
         "close": "Lukk flaggvelger"
       },
@@ -769,7 +769,7 @@
       "fansCount": "{count, plural, one {# Fan} other {# Fans}}",
       "fanLabel": "{count, plural, one {Fan} other {Fans}}",
       "sharedMediaAlt": "Delt media",
-      "mediaPreviewTitle": "Forhåndsvisning",
+      "mediaPreviewTitle": "Forhåndsvisning av bilde",
       "mediaPreviewOpenOriginal": "Åpne original",
       "showSpoiler": "Vis spoiler",
       "externalLinkConfirmTitle": "Åpne ekstern lenke?",
@@ -783,7 +783,7 @@
         "profileMeta": "Rombot"
       },
       "badge": "Merke",
-      "noBadge": "Ingen valgt",
+      "noBadge": "Ingen merke",
       "diamonds": "Diamanter",
       "coins": "Mynter",
       "send": "Send melding",
@@ -798,12 +798,12 @@
       "levelUpToastMessage": "Du er nå på nivå {level}.",
       "levelUpToastMessageWithRewards": "Du er nå på nivå {level}. {rewards}",
       "levelUpPopupTitle": "Du nådde nivå {level}",
-      "levelUpPopupMessage": "Gratulerer! Du har nådd nivå {level}.",
+      "levelUpPopupMessage": "Du er nå på nivå {level}.",
       "levelUpPopupLevelLabel": "Nivå",
       "levelUpPopupRewardsLabel": "Belønninger",
-      "levelUpPopupClose": "Lukk",
+      "levelUpPopupClose": "Lukk nivåvarselet",
       "achievementUnlockedPopupTitle": "Prestasjon låst opp",
-      "achievementUnlockedPopupClose": "Lukk",
+      "achievementUnlockedPopupClose": "Lukk prestasjonsvarselet",
       "topbar": {
         "noTrack": "Ingen musikk spilles",
         "currentDj": "DJ: {name}",
@@ -812,9 +812,9 @@
         "host": "Vert: {name}",
         "verified": "Verifisert rom",
         "partner": "Partnerrom",
-        "volume": "Volum",
-        "mutePlayer": "Demp spiller",
-        "unmutePlayer": "Slå på lyd i avspilleren",
+        "volume": "Volum på avspilleren",
+        "mutePlayer": "Demp avspilleren",
+        "unmutePlayer": "Slå på lyden i avspilleren",
         "muteCurrentTrack": "Demp gjeldende spor",
         "unmuteCurrentTrack": "Gjenoppta gjeldende spor",
         "disablePlayer": "Slå av avspilleren",
@@ -837,7 +837,7 @@
         "subtitle": "En rask oversikt over regler, media og status i rommet.",
         "close": "Lukk rominformasjon",
         "description": "Beskrivelse",
-        "noDescription": "Ingen beskrivelse tilgjengelig.",
+        "noDescription": "Ingen beskrivelse oppgitt.",
         "roomIdentity": "Romdetaljer",
         "verified": "Verifisert",
         "partner": "Partner",
@@ -870,7 +870,7 @@
         "chatHistoryEnabled": "{days} dag(er)",
         "linkFilter": "Lenkefilter",
         "allLinksBlocked": "Alle blokkert",
-        "blockedPatterns": "{count} mønster",
+        "blockedPatterns": "{count} mønster/mønstre",
         "noBlockedLinks": "Ingen blokkeringer",
         "wordFilter": "Ordfilter",
         "blockedWords": "{count} ord/uttrykk",
@@ -919,7 +919,7 @@
           "watermarkLabel": "Vannmerke",
           "watermarkHint": "Viser en halvtransparent WavezFM-logo i hjørnet av avspilleren.",
           "watermarkSizeLabel": "Størrelse på vannmerke",
-          "watermarkSizeHint": "Juster størrelsen på logoen som vises over det eksterne mediet.",
+          "watermarkSizeHint": "Justerer bredden på logoen som vises over det eksterne mediet.",
           "placeholder": "https://drive.google.com/drive/folders/...",
           "helper": "For offentlige Drive-mapper bruker vi automatisk den første kompatible videoen, sammen med en .srt- eller .vtt-undertekst hvis det finnes.",
           "providerPrefix": "Oppdaget",
@@ -987,7 +987,7 @@
           "minimumChatLevelHint": "Brukere under dette nivået kan ikke sende meldinger. Bruk 0 for å tillate alle.",
           "slowMode": "Langsom modus",
           "slowModeHint": "Angi minste tid mellom meldinger i dette rommet. Bruk 0 for å deaktivere. Maksimum: 6 timer (21600 sekunder).",
-          "maxTrackDuration": "Maksimal sporlengde",
+          "maxTrackDuration": "Maksimal medielengde",
           "maxTrackDurationHint": "Begrenser lengden på neste spor i den aktive spillelisten. Godtar sekunder eller formater som 390, 6:30, 6m 30s eller 6m30s. Bruk 0 for å deaktivere. Maksimum: 24 timer (86400 sekunder).",
           "maxTrackDurationPlaceholder": "0, 390, 6:30, 6m 30s",
           "maxTrackDurationError": "Bruk sekunder eller formater som 6:30, 6m 30s eller 6m30s.",
@@ -1000,7 +1000,7 @@
           "lockChat": "Lås chat",
           "lockChatHint": "Når dette er på, kan bare rompersonalet skrive i den offentlige chatten.",
           "lockWaitlist": "Lås DJ-køen",
-          "lockWaitlistHint": "Forhindre nye brukere fra å bli med i DJ-køen.",
+          "lockWaitlistHint": "Hindrer nye brukere i å bli med i DJ-køen.",
           "cycleWaitlist": "Roter DJ-køen",
           "cycleWaitlistHint": "Flytt DJ-er bakerst i køen etter at de har spilt ferdig.",
           "chatHistory": "Lagre chathistorikk",
@@ -1008,7 +1008,7 @@
           "chatHistoryRetentionDays": "Lagringstid for historikk (dager)",
           "chatHistoryRetentionDaysHint": "Velg hvor lenge lagrede meldinger skal være tilgjengelige.",
           "blockAllLinks": "Blokker alle lenker",
-          "blockAllLinksHint": "Forhindrer at alle lenker kan sendes i romchatten.",
+          "blockAllLinksHint": "Hindrer at lenker kan sendes i romchatten.",
           "blockedLinks": "Blokkerte lenker og mønstre",
           "blockedLinksHint": "Bruk én oppføring per linje for domener, URL-forkortere eller banemønstre.",
           "blockedLinksPlaceholder": "discord.gg\nbit.ly\nexample.com/invite",
@@ -1058,26 +1058,26 @@
             "roomSurfacesHint": "Toppnavigasjon, sidefelt, bunntekst, kø og stemmekontroller."
           },
           "themeFields": {
-            "accent": "Aksentfarge",
+            "accent": "Hovedfarge",
             "backgroundPrimary": "Primær bakgrunn",
             "backgroundSecondary": "Sekundær bakgrunn",
             "surface": "Overflater",
             "textPrimary": "Primær tekst",
             "textSecondary": "Sekundær tekst",
-            "border": "Kanter",
+            "border": "Kantlinjer",
             "fieldBackground": "Inndatafelt",
-            "buttonBackground": "Knappebakgrunn",
+            "buttonBackground": "Knapper",
             "buttonHover": "Knapp ved peker",
             "roomNav": "Romnavigasjon",
             "roomSidebar": "Sidefelt",
             "roomFooter": "Bunnlinje",
             "roomIcon": "Romikoner",
             "queueButtonAccent": "Køknapp",
-            "voteButtonBackground": "Stemmeknapp",
+            "voteButtonBackground": "Bakgrunn på stemmeknapp",
             "voteWoot": "Woot",
             "voteGrab": "Grab",
             "voteMeh": "Meh",
-            "inventoryGrant": "Elementvindu",
+            "inventoryGrant": "Gjenstandsvindu",
             "welcomeMessage": "Velkomstmelding",
             "chatMessageBlock": "Chatmeldingsblokk",
             "chatMessageBlockBorder": "Kantlinje på chatmeldingsrad"
@@ -1087,27 +1087,27 @@
         },
         "tools": {
           "skipRecentlyPlayedTracks": "Hopp over nylig spilte spor",
-          "skipRecentlyPlayedTracksHint": "Unngå å spille sanger som nylig har blitt spilt i dette rommet.",
+          "skipRecentlyPlayedTracksHint": "Unngå å gjenta sanger som allerede er spilt i rommet innenfor tidsvinduet nedenfor.",
           "skipRecentlyPlayedTracksWindowMinutes": "Tidsvindu (minutter)",
-          "skipRecentlyPlayedTracksWindowMinutesHint": "Velg en verdi mellom 1 og 1440 minutter. Rommet bruker avspillingshistorikken sin for å unngå gjentakelser.",
+          "skipRecentlyPlayedTracksWindowMinutesHint": "Velg en verdi mellom 1 og 1440 minutter. Rommet bruker sin egen avspillingshistorikk for å blokkere gjentakelser i den perioden.",
           "skipRecentlyPlayedTracksWindowMinutesPlaceholder": "60",
-          "skipRecentlyPlayedTracksWindowMinutesError": "Skriv inn et heltall mellom 1 og 1440.",
-          "unavailableTrackSkipAlerts": "Vis varsler om automatisk hoppede spor",
+          "skipRecentlyPlayedTracksWindowMinutesError": "Skriv inn et heltall mellom 1 og 1440 minutter.",
+          "unavailableTrackSkipAlerts": "Kunngjør automatisk overhoppede spor i chatten",
           "unavailableTrackSkipAlertsHint": "Når aktivert sendes en systemmelding i chatten når et spor automatisk hoppes over fordi det ikke lenger er tilgjengelig.",
           "favoriteRoomGlobalEmojis": "Tillat globale favoritt-emojier",
-          "favoriteRoomGlobalEmojisHint": "Når deaktivert kan abonnenter ikke bruke egendefinerte emojier fra andre favorittrom.",
+          "favoriteRoomGlobalEmojisHint": "Når dette er deaktivert, kan ikke abonnenter bruke egendefinerte emojier fra andre favorittrom i dette rommet.",
           "messageReactions": "Tillat meldingsreaksjoner",
-          "messageReactionsHint": "Når deaktivert kan ingen legge til eller fjerne reaksjoner på meldinger.",
+          "messageReactionsHint": "Når dette er deaktivert, kan ingen legge til eller fjerne reaksjoner på meldinger i dette rommet.",
           "livePlaybackXpMode": "XP under direktesending",
           "livePlaybackXpModeHint": "Velg om XP under direktesending bare går til den som styrer avspillingen, eller om alle som lytter i rommet også tjener XP.",
           "livePlaybackXpModes": {
-            "dj": "DJ",
+            "dj": "Kun den som styrer",
             "djHint": "Beholder dagens atferd: XP er knyttet til DJ-en eller den som styrer direktesendingen.",
-            "room": "Alle i rommet",
+            "room": "Alle som lytter",
             "roomHint": "Ekte brukere som er tilkoblet rommet, tjener XP med jevne mellomrom mens direktesendingen spilles."
           },
-          "commandAnnouncements": "Kunngjør kommandoer",
-          "commandAnnouncementsHint": "Vis moderatorhandlinger utført med slash-kommandoer som automatiske meldinger i chatten.",
+          "commandAnnouncements": "Kunngjør kommandoer i chatten",
+          "commandAnnouncementsHint": "Legger ut handlinger som rompersonalet utfører med slash-kommandoer, som automatiske meldinger i chatten.",
           "commandAnnouncementsSelected": "{count} kommando(er) valgt for kunngjøringer.",
           "commandAnnouncementsConfigure": "Velg kommandoer",
           "roomBots": {
@@ -1118,7 +1118,7 @@
             "prefixLabel": "Prefiks",
             "avatarLabel": "Botmerke",
             "avatarHint": "Romboter bruker alltid det globale Robot-merket. Dette vises alltid i chatten og i rommet.",
-            "permissionsLabel": "Botrettigheter",
+            "permissionsLabel": "Bottillatelser",
             "identityHint": "Disse tillatelsene lagres i tokenet. Boten trenger ingen romrolle for å bruke funksjonene som er aktivert her.",
             "permissionGroups": {
               "basic": "Grunnleggende",
@@ -1152,7 +1152,7 @@
                 "hint": "Lar boten dempe og oppheve demping av brukere."
               },
               "kick_user": {
-                "title": "Spark ut brukere",
+                "title": "Kast ut brukere",
                 "hint": "Lar boten fjerne brukere fra rommet."
               },
               "ban_user": {
@@ -1161,11 +1161,11 @@
               },
               "clear_chat": {
                 "title": "Tøm chat",
-                "hint": "Lar boten slette meldinger eller tømme hele chatten."
+                "hint": "Lar boten tømme chatten eller slette meldingene til én bruker."
               },
               "manage_room": {
                 "title": "Administrer rom",
-                "hint": "Gir tilgang til administrative romfunksjoner og fungerer som en generell tillatelse for moderatorhandlinger."
+                "hint": "Gir tilgang til administrative romfunksjoner og fungerer som en generell tillatelse for handlinger utført av rompersonalet."
               }
             },
             "expiresLabel": "Tokenets levetid",
@@ -1190,26 +1190,26 @@
             "expiresMeta": "Utløper:"
           },
           "rolePermissions": "Rolletillatelser",
-          "rolePermissionsHint": "Bestem hva hver romrolle kan gjøre.",
-          "roomBotCreatorUsers": "Brukere med bottilgang",
+          "rolePermissionsHint": "Finjuster hva hver romrolle kan og ikke kan gjøre.",
+          "roomBotCreatorUsers": "Brukere som kan opprette boter",
           "roomBotCreatorUsersHint": "Tillat bestemte brukere å opprette romboter uavhengig av rollen deres.",
           "roomBotCreatorUsersSearch": "Søk blant påloggede, personale eller brukere som allerede har tilgang...",
-          "roomBotCreatorUsersNoMatches": "Ingen brukere funnet.",
+          "roomBotCreatorUsersNoMatches": "Ingen tilgjengelige brukere å legge til.",
           "roomBotCreatorUsersEmpty": "Ingen brukere har tilgang ennå.",
-          "roomBotCreatorUsersRemove": "Fjern bottilgang",
+          "roomBotCreatorUsersRemove": "Fjern tilgang til å opprette romboter",
           "assignedRoles": "Tildelte roller",
           "assignedRolesHint": "Se alle som allerede har en personalrolle i rommet, og fjern utdatert tilgang uten å gå via chatten eller publikumslisten.",
           "customEmojis": "Egendefinerte emojier",
-          "customEmojisHint": "{count} emoji-plass(er) er i bruk.",
-          "auditLogs": "Revisjonslogger",
+          "customEmojisHint": "{count} emoji-plass(er) er i bruk i dette rommet.",
+          "auditLogs": "Romlogger",
           "auditLogsHint": "Åpne et eget vindu for å følge med på modereringsaktiviteten i sanntid.",
           "closeRoom": "Lukk rom",
           "closeRoomHint": "Lukk rommet umiddelbart og fjern alle fra det. Bruk dette bare når du virkelig trenger å stenge rommet.",
-          "closeRoomAction": "Lukk rom",
-          "closingRoom": "Lukker rom...",
+          "closeRoomAction": "Lukk nå",
+          "closingRoom": "Lukker...",
           "closeRoomConfirm": "Er du sikker på at du vil lukke {name}? Denne handlingen kan ikke angres.",
           "closeRoomError": "Vi kunne ikke lukke rommet akkurat nå.",
-          "empty": "Ingen tilgjengelige verktøy for rollen din."
+          "empty": "Ingen ekstra romverktøy er tilgjengelige for rollen din."
         },
         "rules": {
           "title": "Regler",
@@ -1226,7 +1226,7 @@
           "defaultListTitle": "Liste {number}",
           "categoryLabel": "Listetittel",
           "categoryPlaceholder": "Eksempel: NSFW",
-          "messageLabel": "Regeltekst",
+          "messageLabel": "Tekst for underpunkt",
           "subitemLabel": "Underpunkt {number}",
           "messagePlaceholder": "Eksempel: Seksuelt eksplisitt innhold er ikke tillatt..."
         },
@@ -1249,7 +1249,7 @@
           "empty": "Det finnes ingen aktive utestengelser i dette rommet.",
           "permanent": "Permanent",
           "unban": "Opphev utestengelse",
-          "unbanSuccess": "{username} har fått tilgang til rommet igjen.",
+          "unbanSuccess": "{username} er ikke lenger utestengt fra dette rommet.",
           "unbanError": "Vi kunne ikke oppheve utestengelsen akkurat nå.",
           "byModerator": "Av {moderator}",
           "unknownModerator": "Ukjent moderator",
@@ -1284,7 +1284,7 @@
             "emoji_deleted": "Emoji slettet",
             "mute_user": "Bruker dempet",
             "unmute_user": "Demping opphevet",
-            "kick_user": "Bruker fjernet fra rommet",
+            "kick_user": "Bruker kastet ut",
             "ban_user": "Bruker utestengt",
             "clear_chat": "Chat tømt",
             "queue_user_removed": "Bruker fjernet fra DJ-kø",
@@ -1347,7 +1347,7 @@
               "chatUnavailableTrackSkipAlertsEnabled": "Varsler om utilgjengelige spor",
               "isNsfw": "NSFW-rom",
               "queueLocked": "Kø låst",
-              "cycleWaitlist": "Roter DJ-kø",
+              "cycleWaitlist": "Roter DJ-køen",
               "chatCommandAnnouncementsEnabled": "Kommandokunngjøringer",
               "chatCommandAnnouncementCommands": "Kunngjorte kommandoer",
               "chatHistoryEnabled": "Chathistorikk",
@@ -1369,7 +1369,7 @@
         "cardSubtitle": "Romregler",
         "collapseGroup": "Skjul liste {group}",
         "expandGroup": "Vis liste {group}",
-        "dontShowAgain": "Ikke vis dette igjen i dette rommet",
+        "dontShowAgain": "Ikke vis igjen i dette rommet",
         "agree": "Jeg godtar"
       },
       "permissionsModal": {
@@ -1416,8 +1416,8 @@
             "description": "Tillater å dempe brukere i dette rommet."
           },
           "kick_user": {
-            "label": "Spark ut brukere",
-            "description": "Tillater å fjerne brukere fra rommet."
+            "label": "Kast ut brukere",
+            "description": "Tillater å kaste ut brukere fra dette rommet."
           },
           "ban_user": {
             "label": "Utesteng brukere",
@@ -1445,7 +1445,7 @@
           },
           "create_events": {
             "label": "Opprett arrangementer",
-            "description": "Tillater å sende inn arrangementer for dette rommet til godkjenning av ansatte."
+            "description": "Tillater å sende inn arrangementer for dette rommet til godkjenning av teamet."
           },
           "manage_emojis": {
             "label": "Administrer emojier",
@@ -1468,8 +1468,8 @@
             "description": "Tillater redigering av rommets hovedinnstillinger."
           },
           "create_room_bot": {
-            "label": "Opprett rombot",
-            "description": "Tillater opprettelse av roboter for dette rommet."
+            "label": "Opprett romboter",
+            "description": "Tillater å generere bottokener for dette rommet."
           },
           "view_audit_logs": {
             "label": "Se revisjonslogger",
@@ -1487,7 +1487,7 @@
         "close": "Lukk kommandokunngjøringer",
         "selectedCount": "{count} av {total} kommandoer valgt",
         "selectAll": "Velg alle",
-        "clearAll": "Tøm",
+        "clearAll": "Fjern alle",
         "emptyHint": "Uten valgte kommandoer kunngjøres ingenting i chatten, selv om hovedbryteren er aktivert.",
         "cancel": "Avbryt",
         "save": "Lagre",
@@ -1522,7 +1522,7 @@
           },
           "kick": {
             "label": "/kick",
-            "description": "Kunngjør når noen fjernes fra rommet."
+            "description": "Kunngjør når noen kastes ut av rommet."
           },
           "ban": {
             "label": "/ban",
@@ -1546,7 +1546,7 @@
           },
           "slowmode": {
             "label": "/slowmode",
-            "description": "Kunngjør når rommets langsomme modus endres."
+            "description": "Kunngjør når langsom modus i rommet endres."
           },
           "minchatlevel": {
             "label": "/minchatlevel",
@@ -1571,7 +1571,7 @@
         }
       },
       "favorite": {
-        "add": "Favorittmarker rom",
+        "add": "Legg rom til i favoritter",
         "remove": "Fjern rom fra favoritter"
       },
       "favoriteToast": {
@@ -1587,7 +1587,7 @@
         "grabSavedToast": "\"{title}\" ble lagt til i {playlist}.",
         "actions": {
           "preview": "Forhåndsvis",
-          "grab": "Ta",
+          "grab": "Grab",
           "grabLoading": "Lagrer..."
         },
         "pagination": {
@@ -1630,7 +1630,7 @@
         "error": "Vi kunne ikke lagre velkomstmeldingen i rommet akkurat nå.",
         "historyToggleLabel": "Lagre chathistorikk",
         "historyToggleHint": "Behold de siste 100 meldingene fra dette rommet, slik at folk kan åpne konteksten igjen når de blir med senere.",
-        "historyRetentionLabel": "Dager å beholde historikk",
+        "historyRetentionLabel": "Antall dager historikken beholdes",
         "historyRetentionHint": "Velg hvor mange dager de 100 nyeste meldingene skal være tilgjengelige."
       },
       "stage": {
@@ -1796,7 +1796,7 @@
         "submitEvent": "Send inn arrangement",
         "reviewEvents": "Gjennomgå",
         "submitTitle": "Send inn arrangement til godkjenning",
-        "submitSubtitle": "Fyll ut arrangementsdetaljene. Det blir først synlig etter godkjenning fra ansatte.",
+        "submitSubtitle": "Fyll ut arrangementsdetaljene. Det blir først synlig etter godkjenning fra teamet.",
         "globalSubmissionLabel": "Globalt arrangement",
         "globalSubmissionHint": "Når dette er valgt, sendes arrangementet inn for alle rom. Ellers blir det bare tilgjengelig i dette rommet etter godkjenning.",
         "eventTitle": "Tittel",
@@ -1840,7 +1840,7 @@
       "emptyMentionsTitle": "Fant ingen omtaler",
       "emptyMentionsDescription": "Når noen nevner eller svarer deg, vises meldingene her.",
       "emptyStaffTitle": "Ingen personalmeldinger",
-      "emptyStaffDescription": "Bruk denne chatten til å snakke med rompersonalet.",
+      "emptyStaffDescription": "Bruk denne chatten til å snakke kun med rompersonalet i dette rommet.",
       "composerStaffPlaceholder": "Send melding til rompersonalet",
       "chatPaused": {
         "message": "Chat satt på pause – bla ned for å fortsette",
@@ -1871,7 +1871,7 @@
       },
       "reactionPicker": {
         "title": "Reager",
-        "subtitle": "Velg en rom-, global eller system-emoji.",
+        "subtitle": "Velg en emoji fra rommet, en global emoji eller en systememoji.",
         "more": "Reager",
         "limitReached": "Denne meldingen har allerede {count} reaksjonstyper.",
         "close": "Lukk reaksjoner"
@@ -1931,7 +1931,7 @@
       "replyToLabel": "Svarer @{username}",
       "replyingToLabel": "Svarer @{username}",
       "composerReconnecting": "Kobler til på nytt...",
-      "composerChatLocked": "Chat låst av ansatte",
+      "composerChatLocked": "Chat låst av rompersonalet",
       "composerPlaceholder": "Klikk her for å bli med i samtalen",
       "pastedImage": {
         "label": "Vedlagt bilde",
@@ -1967,7 +1967,7 @@
         "title": "Emojier",
         "custom": "Romemojier",
         "customWithGlobalAccess": "Rom- og globale emojier",
-        "globalCustom": "Favorittglobaler",
+        "globalCustom": "Globale favoritter",
         "native": "Systememojier",
         "autocomplete": "Emoji-forslag",
         "button": "Åpne emoji-velger",
@@ -2062,12 +2062,12 @@
           "chatUnlocked": "{actor} låste opp chatten.",
           "queueLocked": "{actor} låste DJ-køen.",
           "queueUnlocked": "{actor} låste opp DJ-køen.",
-          "queueCycleEnabled": "{actor} aktiverte kørotasjon.",
-          "queueCycleDisabled": "{actor} deaktiverte kørotasjon.",
-          "slowModeEnabled": "{actor} satte sakte modus til {seconds, plural, one {# sekund} other {# sekunder}}.",
-          "slowModeDisabled": "{actor} deaktiverte sakte modus.",
-          "minimumChatLevelEnabled": "{actor} satte minimum chatnivå til {level}.",
-          "minimumChatLevelDisabled": "{actor} deaktiverte minimum chatnivå.",
+          "queueCycleEnabled": "{actor} aktiverte rotering av DJ-køen.",
+          "queueCycleDisabled": "{actor} deaktiverte rotering av DJ-køen.",
+          "slowModeEnabled": "{actor} satte langsom modus til {seconds, plural, one {# sekund} other {# sekunder}}.",
+          "slowModeDisabled": "{actor} deaktiverte langsom modus.",
+          "minimumChatLevelEnabled": "{actor} satte minste chatnivå til {level}.",
+          "minimumChatLevelDisabled": "{actor} deaktiverte minste chatnivå.",
           "coinsUpdated": "{actor} satte myntsaldoen til {target} til {total}.",
           "diamondsUpdated": "{actor} satte diamantsaldoen til {target} til {total}."
         },
@@ -2127,8 +2127,8 @@
         "queueLockedOff": "DJ-køen ble låst opp.",
         "cycleQueueOn": "Rotering av DJ-køen ble aktivert.",
         "cycleQueueOff": "Rotering av DJ-køen ble deaktivert.",
-        "slowModeUpdated": "Rommets langsomme modus er nå {duration}.",
-        "slowModeDisabled": "Rommets langsomme modus ble deaktivert.",
+        "slowModeUpdated": "Langsom modus i rommet er nå {duration}.",
+        "slowModeDisabled": "Langsom modus i rommet ble deaktivert.",
         "minimumChatLevelUpdated": "Minste chatnivå er nå {level}.",
         "minimumChatLevelDisabled": "Minste chatnivå ble deaktivert.",
         "linkFilterOn": "Lenkefilteret ble aktivert.",
@@ -2182,8 +2182,8 @@
           "lockChat": "Låser eller låser opp den offentlige chatten.",
           "lockQueue": "Låser eller låser opp DJ-køen.",
           "cycleQueue": "Aktiverer eller deaktiverer automatisk rotering av DJ-køen.",
-          "slowMode": "Angir rommets langsomme modus med en egendefinert varighet.",
-          "minChatLevel": "Angir minste nivå som kreves for å chatte.",
+          "slowMode": "Angir langsom modus i rommet med en egendefinert varighet.",
+          "minChatLevel": "Angir minste chatnivå som kreves for å skrive i chatten.",
           "linkFilter": "Aktiverer eller deaktiverer total blokkering av lenker.",
           "mute": "Demper noen i en valgt periode.",
           "unmute": "Opphever demping av noen i rommet.",
@@ -2201,7 +2201,7 @@
           "systemAlert": "Åpner vinduet for å sende et globalt systemvarsel.",
           "roomAlert": "Åpner vinduet for å sende et systemvarsel kun til dette rommet.",
           "alert": "Åpner vinduet for å sende et varsel til én person.",
-          "giveaway": "Åpner vinduet for å opprette en giveaway.",
+          "giveaway": "Åpner vinduet for å opprette en utlodning.",
           "renameUser": "Redigerer visningsnavnet til en bruker.",
           "giveItem": "Gir en avatar, et merke, en bakgrunn eller en videoramme til en bruker.",
           "eventBadge": "Gir et merke til brukere som nylig var til stede i et rom.",
@@ -2267,7 +2267,7 @@
           "remove": "Fjern",
           "set": "Sett"
         },
-        "amountLabel": "Beløp",
+        "amountLabel": "Antall",
         "scopeLabel": "Mål",
         "scope": {
           "user": "Bruker",
@@ -2404,8 +2404,8 @@
       },
       "poll": {
         "badge": "Avstemning",
-        "expiredBadge": "Avstemning lukket",
-        "expiredCount": "{count, plural, one {# lukket} other {# lukket}}",
+        "expiredBadge": "Avstemning stengt",
+        "expiredCount": "{count, plural, one {# stengt} other {# stengt}}",
         "multiple": "Flervalg",
         "single": "Enkeltvalg",
         "voteCount": "{count, plural, one {# stemme} other {# stemmer}}",
@@ -2428,8 +2428,8 @@
         "votersEmpty": "Ingen har stemt i denne avstemningen ennå.",
         "votersOptionEmpty": "Ingen har stemt på dette alternativet ennå.",
         "optionVotersEmpty": "Ingen stemmer på dette alternativet.",
-        "delete": "Lukk",
-        "deleteAria": "Lukk avstemningen og kunngjør resultatet",
+        "delete": "Avslutt",
+        "deleteAria": "Avslutt avstemningen og kunngjør det endelige resultatet",
         "dismiss": "Forkast avstemning",
         "dismissAria": "Forkast lukket avstemning uten å kunngjøre resultatet på nytt",
         "endConfirmTitle": "Avslutte denne avstemningen?",
@@ -2439,7 +2439,7 @@
         "dismissConfirmDescription": "Avstemningen vises ikke lenger. Resultatet er allerede lagt ut i chatten og legges ikke ut på nytt.",
         "dismissConfirmAction": "Forkast avstemning",
         "confirmCancel": "Avbryt",
-        "closeModal": "Lukk avstemning"
+        "closeModal": "Lukk avstemningsvinduet"
       },
       "emojiManager": {
         "title": "Romemojier",
@@ -2539,9 +2539,9 @@
         "skipTrack": "Hopp over spor",
         "warn": "Advar",
         "warnSuccess": "Advarsel gitt til {username}.",
-        "warnBannedSuccess": "Advarsel gitt til {username}. Totalt: {count}. Kontoen ble utestengt automatisk.",
+        "warnBannedSuccess": "Advarsel gitt til {username}. Totalt: {count}. Kontoen ble suspendert automatisk.",
         "warnError": "Vi kunne ikke advare denne brukeren akkurat nå.",
-        "kick": "Spark ut",
+        "kick": "Kast ut",
         "mute": "Demp",
         "unmute": "Opphev demping",
         "ban": "Utesteng fra rommet",
@@ -2583,8 +2583,8 @@
         "muteSubtitle": "Velg en årsak og dempevarighet for dette rommet.",
         "banTitle": "Utesteng bruker",
         "banSubtitle": "Velg en årsak og utestengelsesvarighet for dette rommet.",
-        "kickTitle": "Fjern bruker",
-        "kickSubtitle": "Bekreft at personen skal fjernes fra rommet, og forklar hvorfor.",
+        "kickTitle": "Kast ut bruker",
+        "kickSubtitle": "Bekreft at personen skal kastes ut av rommet, og forklar hvorfor.",
         "reasonLabel": "Årsak",
         "reasonPlaceholder": "Beskriv årsaken til utestengelsen",
         "muteReasonPlaceholder": "Beskriv årsaken til dempingen",
@@ -2596,7 +2596,7 @@
         "cancel": "Avbryt",
         "confirmMute": "Bekreft demping",
         "confirm": "Bekreft utestengelse",
-        "confirmKick": "Fjern fra rommet"
+        "confirmKick": "Bekreft utkasting"
       },
       "removalNotice": {
         "kickTitle": "Du ble fjernet fra dette rommet",
@@ -2768,7 +2768,7 @@
       "ROOM_NOT_FOUND": "Fant ikke rommet.",
       "ROOM_PERMISSION_CREATE_ROOM_BOT": "Du har ikke tillatelse til å opprette romboter i dette rommet.",
       "ROOM_PERMISSION_MANAGE_POLLS": "Du har ikke tillatelse til å opprette avstemninger i dette rommet.",
-      "ROOM_PERMISSION_CREATE_EVENTS": "Du kan ikke opprette arrangementer i dette rommet.",
+      "ROOM_PERMISSION_CREATE_EVENTS": "Du har ikke tillatelse til å opprette arrangementer i dette rommet.",
       "ROOM_PERMISSION_MENTION_ROOM": "Du har ikke tillatelse til å nevne hele rommet eller romroller her.",
       "ROOM_POLLS_DISABLED": "Avstemninger er deaktivert akkurat nå.",
       "ROOM_POLL_NOT_ACTIVE": "Denne avstemningen er ikke lenger aktiv.",
@@ -2873,7 +2873,7 @@
       "INVALID_DISPLAY_USERNAME": "Visningsnavnet må være mellom 3 og 50 tegn.",
       "INVALID_LEVEL_REWARD_PREVIEW_MAX_LEVEL": "Den viste nivågrensen må være et heltall mellom 1 og 500.",
       "INVALID_MISC_SHOP_ITEMS": "Konfigurasjonen av Extras-butikken er ugyldig.",
-      "MISC_SHOP_ITEM_COOLDOWN_ACTIVE": "Denne Extra-varen har fortsatt nedkjøling. Prøv igjen om {remainingHours, plural, one {# time} other {# timer}}.",
+      "MISC_SHOP_ITEM_COOLDOWN_ACTIVE": "Denne Extra-varen er fortsatt i nedkjøling. Prøv igjen om {remainingHours, plural, one {# time} other {# timer}}.",
       "SUBSCRIPTION_CHECKOUT_NOT_CONFIGURED": "Abonnementsbetaling er ikke konfigurert.",
       "SUBSCRIPTION_ALREADY_ACTIVE": "Abonnementet ditt er allerede aktivt. Administrer det nåværende abonnementet i stedet for å åpne en ny betaling.",
       "SUBSCRIPTION_NOT_STRIPE_MANAGED": "Dette abonnementet administreres ikke av Stripe.",
@@ -2900,7 +2900,7 @@
       "AMBASSADOR_CANNOT_WARN_AMBASSADOR": "Ambassadører kan ikke advare andre ambassadører.",
       "REPORT_NOT_FOUND": "Fant ikke rapporten.",
       "MESSAGE_NOT_FOUND": "Fant ikke meldingen.",
-      "ROOM_REPLY_TARGET_NOT_FOUND": "Meldingen du svarte på er ikke lenger tilgjengelig.",
+      "ROOM_REPLY_TARGET_NOT_FOUND": "Meldingen du svarte på finnes ikke lenger.",
       "MESSAGE_ID_REQUIRED": "Den rapporterte meldingen er påkrevd.",
       "TARGET_USER_ID_REQUIRED": "Den rapporterte brukeren er påkrevd.",
       "ROOM_ID_REQUIRED": "Rapportrommet er påkrevd.",
@@ -2921,7 +2921,7 @@
       "INVALID_PROGRESSION_BONUS_WINDOW_XP_MULTIPLIER": "XP-multiplikatoren må være mellom 1x og 10x.",
       "INVALID_PROGRESSION_BONUS_WINDOW_COIN_MULTIPLIER": "Myntmultiplikatoren må være mellom 1x og 10x.",
       "INVALID_GLOBAL_XP_COOLDOWN_SECONDS": "Den globale XP-nedkjølingen må være mellom 15 og 3600 sekunder.",
-      "INVALID_DJ_PLAYBACK_XP_COOLDOWN_SECONDS": "DJ-ens XP-nedkjøling må være mellom 15 og 3600 sekunder.",
+      "INVALID_DJ_PLAYBACK_XP_COOLDOWN_SECONDS": "XP-nedkjølingen for DJ må være mellom 15 og 3600 sekunder.",
       "ROOM_DONATION_AMOUNT_INVALID": "Donasjonsbeløpet er ugyldig.",
       "ROOM_DONATION_GOAL_DISABLED": "Dette donasjonsmålet for rommet er ikke aktivt.",
       "ROOM_DONATION_GOAL_COMPLETED": "Dette donasjonsmålet for rommet er allerede fullført.",
@@ -2944,22 +2944,22 @@
       "MERCADO_PAGO_POLICY_UNAUTHORIZED": "Mercado Pago blokkerte denne operasjonen i det gjeldende miljøet. Kontroller om kontoen/applikasjonen er aktivert for abonnementer, og om testen kjører i riktig miljø.",
       "MERCADO_PAGO_TEMPORARILY_UNAVAILABLE": "Mercado Pago er midlertidig utilgjengelig for betaling akkurat nå. Prøv igjen om et øyeblikk.",
       "MERCADO_PAGO_REQUEST_FAILED": "Mercado Pago avviste betalingskonfigurasjonen. Sørg for at legitimasjonen og ressursene tilhører samme konto og modus.",
-      "SUBSCRIPTION_PROVIDER_UNSUPPORTED_CURRENCY": "Mercado Pago-abonnementer er kun tilgjengelige i BRL.",
+      "SUBSCRIPTION_PROVIDER_UNSUPPORTED_CURRENCY": "Abonnementer via Mercado Pago er kun tilgjengelige i BRL.",
       "SUBSCRIPTION_NOT_MERCADO_PAGO_MANAGED": "Dette abonnementet administreres ikke av Mercado Pago.",
       "SUBSCRIPTION_UPGRADE_NOT_AVAILABLE_FOR_PROVIDER": "Automatisk oppgradering til årlig er ikke tilgjengelig for denne leverandøren ennå.",
-      "DIAMOND_PROVIDER_UNSUPPORTED_CURRENCY": "Mercado Pago-diamanter er kun tilgjengelige i BRL.",
-      "ROOM_DONATION_PROVIDER_UNSUPPORTED_CURRENCY": "Mercado Pago-romdonasjoner er kun tilgjengelige i BRL.",
-      "GLOBAL_DONATION_PROVIDER_UNSUPPORTED_CURRENCY": "Mercado Pago-globaldonasjoner er kun tilgjengelige i BRL.",
+      "DIAMOND_PROVIDER_UNSUPPORTED_CURRENCY": "Diamantkjøp via Mercado Pago er kun tilgjengelige i BRL.",
+      "ROOM_DONATION_PROVIDER_UNSUPPORTED_CURRENCY": "Romdonasjoner via Mercado Pago er kun tilgjengelige i BRL.",
+      "GLOBAL_DONATION_PROVIDER_UNSUPPORTED_CURRENCY": "Globale donasjoner via Mercado Pago er kun tilgjengelige i BRL.",
       "INVALID_CHAT_MEDIA_BLOCKED_PATTERNS": "Den globale svartelisten for chatmedier inneholder ugyldige mønstre.",
       "INVALID_BLOCKED_REGISTRATION_EMAIL_DOMAINS": "Se over de blokkerte e-postdomenene for registrering.",
-      "INVALID_USERNAME_BLACKLIST": "Se gjennom termene i brukernavn-svartelisten.",
+      "INVALID_USERNAME_BLACKLIST": "Se gjennom termene i svartelisten for brukernavn.",
       "INVALID_CHAT_MEDIA_TRUSTED_PREVIEW_HOSTS": "Den globale tillatelseslisten for chatforhåndsvisning inneholder ugyldige verter.",
       "ADMIN_ROLE_APPEARANCE_LOCKED": "Kun administratorer kan redigere utseendet til administratorrollen.",
       "STRIPE_EMBEDDED_CHECKOUT_NOT_CONFIGURED": "Stripe-betaling er ikke konfigurert.",
       "STRIPE_CHECKOUT_ELEMENTS_NOT_CONFIGURED": "Stripe-betaling er ikke konfigurert.",
       "ROOM_DONATION_GOAL_ADMIN_ONLY": "Kun administratorer kan endre dette donasjonsmålet for rommet.",
       "ROOM_DESCRIPTION_TOO_LONG": "Rombeskrivelsen kan være maks 250 tegn lang.",
-      "ROOM_DONATION_GOAL_TARGET_INVALID": "Målet for donasjonsmålet må bruke et gyldig beløp.",
+      "ROOM_DONATION_GOAL_TARGET_INVALID": "Donasjonsmålet må ha et gyldig beløp.",
       "ROOM_DONATION_GOAL_TITLE_TOO_SHORT": "Angi en tittel på donasjonsmålet med minst 3 tegn.",
       "ROOM_DONATION_GOAL_TARGET_TOO_LOW": "Donasjonsmålet må være minst 1,00.",
       "ROOM_BOT_CREATION_BANNED": "Denne kontoen har ikke tillatelse til å opprette nye romboter.",
@@ -2980,7 +2980,7 @@
       "EMAIL_ALREADY_IN_USE": "Det finnes allerede en konto med denne e-postadressen.",
       "EMAIL_UNCHANGED": "Skriv inn en annen e-postadresse.",
       "INVALID_JSON_BODY": "Ugyldig JSON-innhold.",
-      "SUSPICIOUS_EMAIL_BLOCKED": "Bruk en gyldig e-postadresse for å opprette kontoen din.",
+      "SUSPICIOUS_EMAIL_BLOCKED": "Bruk en ekte e-postadresse for å opprette kontoen din.",
       "INVALID_INVENTORY_CATEGORY": "Velg en gyldig gjenstandstype.",
       "INVALID_INVENTORY_EXPIRES_AT": "Velg en gyldig fremtidig utløpsdato.",
       "MEDIA_URL_REQUIRED": "Medielenken er påkrevd.",
@@ -3044,10 +3044,10 @@
       "ROOM_PERMISSION_CLEAR_CHAT": "Du har ikke tillatelse til å tømme chatten i dette rommet.",
       "ROOM_PERMISSION_DELETE_ROOM": "Du har ikke tillatelse til å slette dette rommet.",
       "ROOM_PERMISSION_JOIN_QUEUE": "Du har ikke tillatelse til å bli med i DJ-køen i dette rommet.",
-      "ROOM_PERMISSION_KICK_USER": "Du har ikke tillatelse til å sparke ut brukere i dette rommet.",
+      "ROOM_PERMISSION_KICK_USER": "Du har ikke tillatelse til å kaste ut brukere i dette rommet.",
       "ROOM_PERMISSION_MANAGE_EMOJIS": "Du har ikke tillatelse til å administrere emojier i dette rommet.",
       "ROOM_PERMISSION_MANAGE_EXTERNAL_MEDIA": "Du har ikke tillatelse til å administrere eksterne medier i dette rommet.",
-      "ROOM_PERMISSION_MANAGE_CUSTOM_THEME": "Du kan ikke redigere det egendefinerte temaet til dette rommet.",
+      "ROOM_PERMISSION_MANAGE_CUSTOM_THEME": "Du har ikke tillatelse til å redigere det egendefinerte temaet for dette rommet.",
       "ROOM_PERMISSION_MANAGE_LINKS": "Du har ikke tillatelse til å administrere lenkefiltrene i dette rommet.",
       "ROOM_PERMISSION_MANAGE_QUEUE": "Du har ikke tillatelse til å administrere DJ-køen i dette rommet.",
       "ROOM_PERMISSION_MANAGE_ROLES": "Du har ikke tillatelse til å administrere roller i dette rommet.",
@@ -3062,7 +3062,7 @@
       "ROOM_ROLE_LIMIT_REACHED": "Denne rollen har allerede nådd maksgrensen for dette rommet.",
       "ROOM_SLOW_MODE_ACTIVE": "Langsom modus er aktiv. Vent {duration} før du sender en ny melding.",
       "ROOM_UNSAFE_MEDIA_BLOCKED": "Bilde- eller GIF-lenker fra voksen-/18+-kilder er ikke tillatt i chatten.",
-      "ROOM_WORD_BLOCKED": "Denne meldingen inneholder et blokkert ord eller uttrykk.",
+      "ROOM_WORD_BLOCKED": "Denne meldingen inneholder et ord som er blokkert i dette rommet.",
       "ROOM_YOUTUBE_LIVE_NOT_ALLOWED": "Det første sporet i den aktive spillelisten er en YouTube-direktesending, og dette rommet tillater ikke direktesendinger.",
       "TWO_FACTOR_AUTHY_DISABLED": "Authy-autentisering er deaktivert.",
       "TWO_FACTOR_NOT_PENDING": "Ingen tofaktorbekreftelse venter.",
@@ -3072,7 +3072,7 @@
       "TWO_FACTOR_TOTP_REQUIRED": "Skriv inn koden fra autentiseringsappen.",
       "USER_ALREADY_OWNS_ITEM": "Denne brukeren eier allerede denne gjenstanden.",
       "USER_BANNED": "Denne kontoen er utestengt.",
-      "ROOM_CURRENT_DJ_VOTE_FORBIDDEN": "Nåværende DJ kan ikke stemme på eller ta sitt eget spor.",
+      "ROOM_CURRENT_DJ_VOTE_FORBIDDEN": "DJ-en som spiller nå, kan ikke stemme på eller bruke Grab på sitt eget spor.",
       "VOTE_TYPE_INVALID": "Stemmetypen er ugyldig.",
       "WS_AUTH_REQUIRED": "Autentisering er påkrevd.",
       "WS_CHAT_RATE_LIMITED": "Du sendte chatmeldinger for raskt. Prøv igjen om et øyeblikk.",
@@ -3088,7 +3088,7 @@
     "shop": {
       "eyebrow": "WavezFM-butikken",
       "title": "Butikk",
-      "subtitle": "Tilpass profilen og rommet ditt med eksklusive gjenstander.",
+      "subtitle": "Lås opp avatarer, merker og bakgrunner for å tilpasse profilen og rommene dine.",
       "catalogs": {
         "avatars": "Avatarer",
         "backgrounds": "Bakgrunner",
@@ -3218,7 +3218,7 @@
       "actionError": "Vi kunne ikke fullføre denne butikkhandlingen akkurat nå.",
       "loadError": "Vi kunne ikke laste inn butikken akkurat nå.",
       "extras": {
-        "hint": "Bonuser og verktøy for å tilpasse kontoen din",
+        "hint": "Boosts og verktøy for å tilpasse kontoen din",
         "xpBoostMeta": "{multiplier}x XP i {minutes} min",
         "displayNameMeta": "Oppdaterer visningsnavnet umiddelbart",
         "firstChangeFreeAction": "Bruk gratis første endring",
@@ -3234,7 +3234,7 @@
         "withoutCooldown": "Ingen nedkjøling",
         "roomThemePermanentMeta": "Låser opp permanent redigering av egendefinert tema for det valgte rommet",
         "roomThemeMonthlyMeta": "Låser opp redigering av egendefinert tema i {days} dager i det valgte rommet",
-        "roomThemeRoomLocked": "Brukes kun på det valgte rommet. Det låser ikke opp egendefinerte temaer i andre rom på kontoen.",
+        "roomThemeRoomLocked": "Gjelder kun det valgte rommet. Det låser ikke opp egendefinerte temaer i andre rom på kontoen.",
         "roomThemeRoomRequired": "Velg ett av rommene dine for å kjøpe eller leie dette temaet.",
         "roomThemeRoomRequiredShort": "Velg et rom",
         "externalMediaPermanentMeta": "Låser opp eksterne medier permanent for det valgte rommet",
@@ -3249,7 +3249,7 @@
         "roomThemeRoomsLoadError": "Vi kunne ikke laste inn rommene dine akkurat nå.",
         "roomThemeNoOwnedRooms": "Du må eie et rom for å kjøpe eller leie et egendefinert tema.",
         "checkoutSummary": "Ekstern betaling på {price}. Leveringen skjer automatisk etter bekreftelse.",
-        "checkoutDelivery": "Betaling i kassen",
+        "checkoutDelivery": "Betaling ved kjøp",
         "checkoutSuccess": "Betalingen er bekreftet. Gjenstanden ble tatt i bruk automatisk.",
         "checkoutError": "Vi kunne ikke starte betalingen for denne gjenstanden akkurat nå.",
         "usernameLabel": "Nytt brukernavn",
@@ -3279,7 +3279,7 @@
       "emptySubtitle": "Opprett din første spilleliste og organiser musikken din.",
       "emptyPlaylistTitle": "Ingen sanger i denne spillelisten ennå",
       "emptyPlaylistSubtitle": "Bruk søk for å legge til noen sanger.",
-      "subtitle": "Administrer samlingen din og velg hva du vil spille neste gang.",
+      "subtitle": "Bygg settet ditt, velg den aktive spillelisten og hold de neste sporene klare for rommet.",
       "libraryTitle": "Mine spillelister",
       "loading": "Laster inn spillelister...",
       "tracksLoading": "Laster inn spor i spillelisten...",
@@ -3339,7 +3339,7 @@
       "renameSuccess": "Spillelisten {name} fikk nytt navn.",
       "renameError": "Vi kunne ikke endre navnet på denne spillelisten akkurat nå.",
       "cancel": "Avbryt",
-      "delete": "Slett spilleliste",
+      "delete": "Slett",
       "deleting": "Sletter...",
       "deleteConfirmTitle": "Slett spilleliste",
       "deleteConfirm": "Er du sikker på at du vil slette spillelisten \"{name}\"? Denne handlingen kan ikke angres.",
@@ -3470,7 +3470,7 @@
       "imports": {
         "title": "Importer spilleliste",
         "streamingAction": "Importer via strømming",
-        "close": "Lukk vindu",
+        "close": "Lukk vinduet",
         "autoSourceLabel": "Oppdag automatisk",
         "autoSubtitle": "Lim inn en lenke til en spilleliste eller et album fra YouTube, Spotify eller SoundCloud. Kilden oppdages automatisk.",
         "autoPlaceholder": "Lim inn en YouTube-, Spotify- eller SoundCloud-lenke",
@@ -3527,7 +3527,7 @@
         },
         "soundcloud": {
           "label": "SoundCloud",
-          "subtitle": "Importer en SoundCloud-spilleliste eller -samling til spillelisten du velger.",
+          "subtitle": "Importer en SoundCloud-spilleliste eller et sett til spillelisten du velger.",
           "placeholder": "https://soundcloud.com/.../sets/..."
         },
         "youtubeCompleted": "Spillelisten {name} ble importert fra YouTube med {count} spor.",
@@ -3537,7 +3537,7 @@
     "fans": {
       "eyebrow": "Sosialt nettverk",
       "title": "Fans",
-      "headerSubtitle": "Folk du følger og superfans som er klare for en prat.",
+      "headerSubtitle": "Fansene dine, superfans og folk du følger.",
       "followersCount": "{count, plural, one {# fan} other {# fans}}",
       "followersEyebrow": "Fellesskapet ditt",
       "followersTitle": "Fansene dine",
@@ -3611,7 +3611,7 @@
     "settings": {
       "eyebrow": "Kontoinnstillinger",
       "title": "Innstillinger",
-      "subtitle": "Juster kontoen din, varsler og hvordan WavezFM ser ut for deg.",
+      "subtitle": "Juster kontoen din, hvordan varsler når deg, og hvordan opplevelsen din ser ut på tvers av WavezFM.",
       "tabs": {
         "account": "Konto",
         "developer": "Utvikler",
@@ -3653,7 +3653,7 @@
           "developer": "Utvikler"
         },
         "descriptions": {
-          "profile": "Konto-e-post og kundestøtte.",
+          "profile": "Konto-e-post og brukerstøtte.",
           "connections": "Discord, Last.fm og integrasjoner.",
           "password": "Påloggingsinformasjon og gjenoppretting av tilgang.",
           "twoFactor": "Andre faktor og innloggingsmetoder.",
@@ -3695,12 +3695,12 @@
         "title": "Konto",
         "subtitle": "Administrer tilgang, sikkerhet og hvordan tid vises for deg.",
         "emailLabel": "Konto-e-post",
-        "emailHelp": "Kontakt kundestøtte for å endre e-postadressen din:",
+        "emailHelp": "Kontakt brukerstøtten for å endre e-postadressen din:",
         "discordLabel": "Discord",
         "discordConnected": "Discord er tilkoblet",
         "discordDisconnected": "Discord er ikke tilkoblet ennå",
         "discordConnectedSince": "Tilkoblet siden {date}.",
-        "discordHelp": "Koble til Discord-kontoen din for sosiale funksjoner, merker og chatintegrasjoner.",
+        "discordHelp": "Koble til Discord-kontoen din for kommende sosiale funksjoner, merker og chatintegrasjoner.",
         "discordConnectedCta": "Tilkoblet",
         "discordLinking": "Kobler til...",
         "discordConnect": "Koble til Discord",
@@ -3792,7 +3792,7 @@
         "showLastSeenOnProfile": "Vis sist aktiv",
         "showLastSeenOnProfileHint": "Når dette er deaktivert, kan andre ikke se når du sist var på nettstedet.",
         "showSupporterBadges": "Vis automatiske støttespillermerker",
-        "showSupporterBadgesHint": "Viser automatiske merker for gavemedlemskap og abonnementstid i profilen, chatten og hurtigprofilen din.",
+        "showSupporterBadgesHint": "Viser automatiske merker for gaveabonnement og abonnementstid i profilen, chatten og hurtigprofilen din.",
         "blockUnknownWhispers": "Blokker hvisk fra fremmede",
         "blockUnknownWhispersHint": "Når dette er aktivert, kan personer som ikke er superfansene dine, bare hviske til deg etter at du starter samtalen.",
         "autoOpenIncomingWhispers": "Åpne innkommende hvisk",
@@ -3807,10 +3807,10 @@
         },
         "preferencesSaved": "Kontoinnstillingene dine er oppdatert.",
         "saving": "Lagrer...",
-        "save": "Lagre",
+        "save": "Lagre innstilling",
         "saveError": "Vi kunne ikke lagre innstillingene dine akkurat nå.",
         "passwordTitle": "Passord",
-        "passwordSubtitle": "Oppdater passordet ditt eller opprett et nytt, så du kan logge inn uten sosial konto.",
+        "passwordSubtitle": "Oppdater passordet ditt eller opprett et, slik at du kan logge inn uten å være avhengig av innlogging med sosial konto.",
         "passwordExists": "Kontoen din har allerede et passord. Du kan endre det nedenfor.",
         "passwordMissing": "Kontoen din har ikke et passord ennå. Opprett ett for også å kunne logge inn med e-post og passord.",
         "currentPassword": "Nåværende passord",
@@ -3902,12 +3902,12 @@
           },
           "authy": {
             "starting": "Klargjør app...",
-            "started": "Authenticator-hemmeligheten din ble generert. Lagre sikkerhetskodene før du fortsetter.",
+            "started": "Authenticator-hemmeligheten din ble generert. Lagre reservekodene før du fortsetter.",
             "secretLabel": "Manuell hemmelig nøkkel",
             "copySecret": "Kopier hemmelig nøkkel",
             "secretCopied": "Hemmelig nøkkel kopiert.",
             "secretCopyError": "Vi kunne ikke kopiere den hemmelige nøkkelen.",
-            "backupCodesLabel": "Sikkerhetskoder"
+            "backupCodesLabel": "Reservekoder"
           },
           "disable": {
             "title": "Deaktiver tofaktorbekreftelse",
@@ -3961,7 +3961,7 @@
         "prefixLabel": "Prefiks",
         "avatarLabel": "Botmerke",
         "avatarHint": "Romboter bruker alltid det globale Robot-merket. Dette vises alltid i chatten og i rommet.",
-        "permissionsLabel": "Botrettigheter",
+        "permissionsLabel": "Bottillatelser",
         "permissionsHint": "Velg hva dette tokenet aktiverer. Boten vises som Robot og bruker ikke en romrolle.",
         "permissionGroups": {
           "basic": "Grunnleggende",
@@ -3995,7 +3995,7 @@
             "hint": "Demp og opphev demping av brukere."
           },
           "kick_user": {
-            "title": "Spark ut brukere",
+            "title": "Kast ut brukere",
             "hint": "Fjern brukere fra rommet."
           },
           "ban_user": {
@@ -4119,7 +4119,7 @@
             "description": "Tilpass avspilleren med Premium-rammer som låses opp av abonnementet ditt."
           },
           "badges": {
-            "title": "Merke og profilhøydepunkt",
+            "title": "Merke og fremhevet profil",
             "description": "Få støttespillermerket og la kontoen din skille seg ut på profilen."
           },
           "noDiamonds": {
@@ -4190,8 +4190,8 @@
           },
           "descriptions": {
             "mercadoPagoPrepaidSubscription": {
-              "monthly": "Mercado Pago-forhåndsbetalt abonnement (månedlig)",
-              "annual": "Mercado Pago-forhåndsbetalt abonnement (årlig)"
+              "monthly": "Forhåndsbetalt abonnement via Mercado Pago (månedlig)",
+              "annual": "Forhåndsbetalt abonnement via Mercado Pago (årlig)"
             },
             "stripeRecurringSubscription": {
               "monthly": "Månedlig gjentakende Stripe-abonnement ({currency})",
@@ -4231,7 +4231,7 @@
           "activeNoDate": "Dato utilgjengelig akkurat nå.",
           "endsToday": "Avsluttes i dag",
           "daysLeft": "{count} dag(er) igjen",
-          "descriptionRecurring": "Det {cycle} abonnementet ditt låser allerede opp alle Premium-fordeler på kontoen.",
+          "descriptionRecurring": "Abonnementet ditt ({cycle}) låser allerede opp alle Premium-fordeler på kontoen.",
           "descriptionPrepaid": "Premium-tilgangen din er aktiv til den nåværende forhåndsbetalte saldoen tar slutt. Nye Mercado Pago-kjøp legger tid til den nåværende sluttdatoen.",
           "descriptionGifted": "Kontoen din bruker et gaveabonnement til den nåværende perioden tar slutt.",
           "stripeManagedHint": "Herfra kan du avslutte automatisk fornyelse, slå den på igjen senere, og gå fra månedlig til årlig uten å miste de gjenværende månedsdagene.",
@@ -4302,7 +4302,7 @@
         "cc_rejected_card_error": "Mercado Pago kunne ikke behandle dette kortet akkurat nå. Prøv et annet kort.",
         "cc_rejected_duplicated_payment": "En svært lik betaling ble nylig gjennomført. Vent et øyeblikk før du prøver igjen.",
         "cc_rejected_high_risk": "Betalingen ble avvist av risikoanalysen til Mercado Pago.",
-        "cc_rejected_insufficient_amount": "Kortet har ikke nok tilgjengelig beløp til å fullføre betalingen.",
+        "cc_rejected_insufficient_amount": "Kortet har ikke nok tilgjengelig kreditt til å fullføre betalingen.",
         "cc_rejected_invalid_installments": "De valgte avdragene er ikke gyldige for dette kortet.",
         "cc_rejected_max_attempts": "Det ble gjort for mange forsøk med dette kortet. Vent litt før du prøver igjen.",
         "cc_rejected_other_reason": "Utstederen avviste dette kortet. Prøv et annet kort eller se over testdataene."
@@ -4408,7 +4408,7 @@
       },
       "rooms": {
         "title": "Rom",
-        "subtitle": "Gi nytt navn til, fiks eller fjern rom som bryter reglene eller skader den delte opplevelsen.",
+        "subtitle": "Gi nytt navn til, rett opp eller fjern rom som bryter reglene eller skader den delte opplevelsen.",
         "searchPlaceholder": "Søk etter romnavn, romadresse eller vert...",
         "emptySearch": "Ingen rom samsvarer med dette søket.",
         "private": "Privat",
@@ -4439,7 +4439,7 @@
           "visibility": "Synlighet",
           "owner": "Vert",
           "flags": "Flagg",
-          "online": "På nett",
+          "online": "Pålogget",
           "updatedAt": "Oppdatert",
           "action": "Åpne",
           "noFlags": "-"
@@ -4496,18 +4496,18 @@
         "deleteError": "Vi kunne ikke slette denne rapporten.",
         "details": "Detaljer",
         "detailsTitle": "Sak #{id}",
-        "detailsSubtitle": "Se gjennom hele konteksten og hold interne notater for ansatte.",
+        "detailsSubtitle": "Se gjennom hele konteksten og hold interne notater for teamet.",
         "closeDetails": "Lukk detaljer",
         "createdByLabel": "Rapportør",
         "roomLabel": "Rom",
         "createdAtLabel": "Opprettet",
-        "notesTitle": "Ansattnotater",
+        "notesTitle": "Notater fra teamet",
         "notesSubtitle": "Interne kommentarer for å spore handlinger og avgjørelser i denne saken.",
         "notesEmpty": "Ingen notater er lagt til ennå.",
         "noteCount": "{count, plural, =0 {0 notater} one {# notat} other {# notater}}",
         "addNoteLabel": "Legg til notat",
         "addNotePlaceholder": "F.eks.: Bruker X gjorde Y kl. Z. Jeg advarte dem i chatten og fulgte med i rommet i 10 minutter.",
-        "addNoteHint": "Notater er kun synlige for ansatte med tilgang til rapporter.",
+        "addNoteHint": "Notater er kun synlige for medlemmer av teamet med tilgang til rapporter.",
         "addNote": "Legg til notat",
         "noteSaving": "Lagrer...",
         "noteInvalid": "Skriv et notat på minst 2 tegn.",
@@ -4534,11 +4534,11 @@
         "empty": "Fant ingen hjelpeanrop.",
         "realtimeCreated": "Nytt hjelpeanrop #{id} i {room}.",
         "goToRoom": "Gå til rom",
-        "delete": "Slett hjelpeforespørsel",
+        "delete": "Slett hjelpeanrop",
         "deleting": "Sletter...",
-        "deleteConfirm": "Vil du slette hjelpeforespørsel #{id} permanent?",
-        "deleteSuccess": "Hjelpeforespørsel #{id} ble slettet.",
-        "deleteError": "Vi kunne ikke slette denne hjelpeforespørselen."
+        "deleteConfirm": "Vil du slette hjelpeanrop #{id} permanent?",
+        "deleteSuccess": "Hjelpeanrop #{id} ble slettet.",
+        "deleteError": "Vi kunne ikke slette dette hjelpeanropet."
       },
       "confirm": {
         "warnTitle": "Gi advarsel",
@@ -4585,10 +4585,10 @@
       "retry": "Prøv igjen",
       "unknownDate": "Ukjent dato",
       "successTitle": "Søknad sendt inn",
-      "successBody": "Vi har mottatt søknaden din. Ansatte vil se gjennom svarene dine når det er mulig.",
+      "successBody": "Vi har mottatt søknaden din. Teamet ser gjennom svarene dine når det er mulig.",
       "emailCopyHint": "Vi sendte også en kopi av svarene dine til e-posten din.",
       "alreadySubmittedTitle": "Søknaden din er allerede sendt inn",
-      "alreadySubmittedBody": "Du har allerede en innsending for dette skjemaet. Vent på gjennomgang fra ansatte.",
+      "alreadySubmittedBody": "Du har allerede en innsending for dette skjemaet. Vent på gjennomgang fra teamet.",
       "closedTitle": "Søknader lukket",
       "closedBody": "Dette skjemaet er for øyeblikket lukket for nye søknader.",
       "availableSlots": "Ledige plasser: {count} av {total}",
@@ -4625,7 +4625,7 @@
       "subtitle": "Administrer plattformroller, juster progresjon og fjern innhold når du trenger å holde nettstedet trygt og ryddig.",
       "save": "Lagre",
       "saving": "Lagrer...",
-      "refresh": "Oppdater",
+      "refresh": "Oppdater panel",
       "loadError": "Vi kunne ikke laste inn administrasjonsområdet akkurat nå.",
       "restrictedTitle": "Begrenset område",
       "restrictedSubtitle": "Denne delen av oversikten er kun tilgjengelig for WavezFM-administratorer.",
@@ -4645,7 +4645,7 @@
         "totalUsersCaption": "Totalt antall registrerte kontoer.",
         "totalRooms": "Rom",
         "totalRoomsCaption": "Rom som er lagret akkurat nå.",
-        "bannedUsers": "Suspenderinger",
+        "bannedUsers": "Suspensjoner",
         "bannedUsersCaption": "Kontoer med blokkert tilgang.",
         "adminUsers": "Administratorer",
         "adminUsersCaption": "Kontoer med administrativ tilgang.",
@@ -4741,14 +4741,14 @@
         "roomsChip": "{value} rom",
         "sessionsChip": "{value} økt(er)",
         "createdAtChip": "Opprettet {date}",
-        "banReason": "Årsak til suspendering: {reason}",
+        "banReason": "Årsak til suspensjon: {reason}",
         "modalTabs": {
           "summary": "Sammendrag",
           "profile": "Profil og avatar",
           "account": "Konto og roller",
           "progression": "Progresjon",
           "subscription": "Abonnement",
-          "inventory": "Inventar",
+          "inventory": "Samling",
           "security": "Sikkerhet"
         },
         "roleSaving": "Lagrer...",
@@ -4872,7 +4872,7 @@
           "removeSuccess": "{item} ble fjernet fra samlingen til {username}.",
           "removeError": "Vi kunne ikke fjerne denne gjenstanden fra samlingen akkurat nå.",
           "notOwned": "Denne brukeren eier ikke denne gjenstanden som kan fjernes.",
-          "equipped": "Utstyrt"
+          "equipped": "I bruk"
         },
         "subscription": {
           "title": "Abonnement",
@@ -4928,7 +4928,7 @@
               "gift": "Mottatt abonnement i gave",
               "adminActivated": "Abonnement aktivert av administrasjonen",
               "adminDeactivated": "Abonnement deaktivert av administrasjonen",
-              "canceled": "Fornyelse kansellert",
+              "canceled": "Fornyelse avsluttet",
               "resumed": "Fornyelse gjenopptatt",
               "pending": "Abonnementsoppdatering venter"
             }
@@ -4944,7 +4944,7 @@
           "currencyLabel": "Valuta",
           "currencyCoins": "Mynter",
           "currencyDiamonds": "Diamanter",
-          "amountLabel": "Beløp",
+          "amountLabel": "Antall",
           "announceLabel": "Vis i romchatten",
           "announceHint": "Når dette er aktivert, vises gaven i chatten til {room}.",
           "announceUnavailable": "Brukeren må være i et aktivt rom for å vise denne gaven i chatten.",
@@ -4969,10 +4969,10 @@
         "statsSaving": "Lagrer statistikk...",
         "statsSave": "Lagre statistikk",
         "unbanning": "Reaktiverer...",
-        "unban": "Fjern suspendering",
+        "unban": "Fjern suspensjon",
         "banning": "Suspenderer...",
         "ban": "Suspender konto",
-        "banPlaceholder": "Valgfri årsak til suspendering",
+        "banPlaceholder": "Valgfri årsak til suspensjon",
         "selfNote": "Din egen konto kan ikke modereres herfra.",
         "table": {
           "user": "Bruker",
@@ -4995,7 +4995,7 @@
           "title": "Tilknyttet Discord",
           "loading": "Laster inn Discord-tilkobling...",
           "loadError": "Vi kunne ikke laste inn denne kontoens Discord-tilkobling.",
-          "connected": "Discord tilkoblet",
+          "connected": "Discord er tilkoblet",
           "disconnected": "Discord frakoblet",
           "connectedHint": "Fjern den tilknyttede Discord-kontoen fra denne kontoen når du trenger å tvinge frem en ny tilkobling eller bytte den tilkoblede profilen.",
           "disconnectedHint": "Denne kontoen har ingen tilknyttet Discord akkurat nå.",
@@ -5016,14 +5016,14 @@
         "passwordsDoNotMatch": "Passordbekreftelsen samsvarer ikke.",
         "markEmailUnverified": "Marker som ubekreftet",
         "verifyingEmail": "Oppdaterer e-post...",
-        "emailChangeHint": "Å endre e-posten tilbakestiller bekreftelsen til ventende.",
+        "emailChangeHint": "Når du endrer e-posten, settes bekreftelsen tilbake til ventende.",
         "changeEmailSuccess": "E-posten til {username} ble oppdatert til {email}.",
         "changeEmailError": "Vi kunne ikke oppdatere denne brukerens e-post.",
         "verifyEmailSuccess": "E-posten til {username} ble markert som bekreftet.",
         "unverifyEmailSuccess": "E-posten til {username} ble markert som ubekreftet.",
         "verifyEmailError": "Vi kunne ikke oppdatere denne brukerens e-poststatus.",
         "neverActive": "Ingen registrert aktivitet",
-        "online": "På nett",
+        "online": "Pålogget",
         "offline": "Frakoblet",
         "warn": "Gi advarsel",
         "warnHint": "3 advarsler fører til en permanent utestengelse.",
@@ -5031,7 +5031,7 @@
         "warnBannedSuccess": "{username} nådde {count} advarsler og ble utestengt permanent.",
         "warnError": "Vi kunne ikke advare denne brukeren akkurat nå.",
         "reasonLabel": "Modereringsårsak",
-        "reasonPlaceholder": "Beskriv årsaken til advarselen, suspenderingen eller reaktiveringen",
+        "reasonPlaceholder": "Beskriv årsaken til advarselen, suspensjonen eller reaktiveringen",
         "detail": {
           "publicId": "Offentlig ID",
           "id": "ID",
@@ -5147,7 +5147,7 @@
       },
       "rooms": {
         "title": "Rom",
-        "subtitle": "Fjern ødelagte, misbrukte eller forlatte rom ved behov.",
+        "subtitle": "Fjern ødelagte rom, rom med misbruk eller forlatte rom ved behov.",
         "searchPlaceholder": "Søk etter romnavn, romadresse eller vert...",
         "emptySearch": "Ingen rom samsvarer med dette søket.",
         "private": "Privat",
@@ -5205,7 +5205,7 @@
         "members": {
           "title": "Folk i rommet",
           "subtitle": "Se hvem som er tilkoblet nå, og hvem som spiller eller venter i køen.",
-          "count": "{count} på nett",
+          "count": "{count} pålogget",
           "refresh": "Oppdater liste",
           "refreshing": "Oppdaterer liste",
           "loading": "Laster folk...",
@@ -5293,15 +5293,15 @@
             "surface": "Overflater",
             "textPrimary": "Primær tekst",
             "textSecondary": "Sekundær tekst",
-            "border": "Kanter",
+            "border": "Kantlinjer",
             "fieldBackground": "Inndatafelt og valglister",
             "buttonBackground": "Knapper",
             "buttonHover": "Knapp ved peker",
-            "roomNav": "Sidefelt og toppfelt",
+            "roomNav": "Romnavigasjon",
             "roomSidebar": "Sidefelt",
-            "roomFooter": "Avspiller og spilleliste",
+            "roomFooter": "Bunnfelt i rommet",
             "roomIcon": "Ikonfarge",
-            "queueButtonAccent": "Aksent på køknapp",
+            "queueButtonAccent": "Køknapp",
             "voteButtonBackground": "Bakgrunn for stemmeknapp",
             "voteWoot": "Woot-farge",
             "voteGrab": "Grab-farge",
@@ -5315,18 +5315,18 @@
             "accent": "Påvirker knapper, aktive merker, linjer og fokustilstander.",
             "backgroundPrimary": "Påvirker den primære rombakgrunnen og chatområdet.",
             "backgroundSecondary": "Påvirker navigasjon, bunnlinje og sekundære områder.",
-            "surface": "Påvirker paneler, peketilstander og hevede overflater.",
+            "surface": "Påvirker paneler, pekertilstander og hevede overflater.",
             "textPrimary": "Påvirker primærteksten som vises i rommet.",
             "textSecondary": "Påvirker hjelpetekst, plassholdere og dempede etiketter.",
             "border": "Påvirker kanter på kort, inndatafelt, spilleliste, avspiller og menyer.",
             "fieldBackground": "Påvirker chatfeltet, valglister og redigerbare felt.",
             "buttonBackground": "Påvirker nøytrale knapper og sekundære handlinger.",
-            "buttonHover": "Påvirker peketilstander på knapper og interaktive overflater.",
-            "roomNav": "Påvirker sidefeltet, rommets toppfelt og hovednavigasjonen.",
+            "buttonHover": "Påvirker pekertilstander på knapper og interaktive overflater.",
+            "roomNav": "Påvirker rommets toppfelt og den interne romnavigasjonen.",
             "roomSidebar": "Påvirker hovedsidefeltet mens rommet er åpent.",
             "roomFooter": "Påvirker avspillerbakgrunnen, de nedre kontrollene og spillelisten.",
             "roomIcon": "Påvirker fargen på hovedikonene i rommet.",
-            "queueButtonAccent": "Påvirker den venstre stripen på knappen for å bli med i eller forlate køen.",
+            "queueButtonAccent": "Påvirker bakgrunnen, den venstre stripen og uthevingen på knappen for å bli med i eller forlate køen.",
             "voteButtonBackground": "Påvirker den mørke bakgrunnen på knappene i stemmepanelet.",
             "voteWoot": "Påvirker knappen for positiv stemme i panelet.",
             "voteGrab": "Påvirker grab-knappen og grab-vinduet.",
@@ -5446,7 +5446,7 @@
           "inactive": "Mål deaktivert"
         }
       },
-      "loading": "Laster...",
+      "loading": "Laster inn oversikten...",
       "common": {
         "closeDialog": "Lukk",
         "justNow": "Akkurat nå",
@@ -5504,7 +5504,7 @@
         "announcements": "Varsler"
       },
       "giveaways": {
-        "subtitle": "Opprett giveaways for fellesskapet, følg med på påmeldinger og trekk vinnere."
+        "subtitle": "Opprett utlodninger for fellesskapet, følg med på påmeldinger og trekk vinnere."
       },
       "helpCalls": {
         "title": "Hjelpeanrop",
@@ -5516,11 +5516,11 @@
         "empty": "Fant ingen hjelpeanrop.",
         "realtimeCreated": "Nytt hjelpeanrop #{id} i {room}.",
         "goToRoom": "Gå til rom",
-        "delete": "Slett hjelpeforespørsel",
+        "delete": "Slett hjelpeanrop",
         "deleting": "Sletter...",
-        "deleteConfirm": "Vil du slette hjelpeforespørsel #{id} permanent?",
-        "deleteSuccess": "Hjelpeforespørsel #{id} ble slettet.",
-        "deleteError": "Vi kunne ikke slette denne hjelpeforespørselen."
+        "deleteConfirm": "Vil du slette hjelpeanrop #{id} permanent?",
+        "deleteSuccess": "Hjelpeanrop #{id} ble slettet.",
+        "deleteError": "Vi kunne ikke slette dette hjelpeanropet."
       },
       "forms": {
         "listTitle": "Skjemaer",
@@ -5673,7 +5673,7 @@
           "filteredCount": "{count} av {total} svar",
           "noSearchResults": "Ingen svar samsvarer med dette søket.",
           "emptyStatus": "Ingen svar med statusen {status}.",
-          "collapse": "Slå sammen",
+          "collapse": "Skjul",
           "expand": "Utvid",
           "delete": "Slett svar",
           "deleting": "Sletter...",
@@ -5706,9 +5706,9 @@
         "roomPlaceholder": "Velg rommet",
         "roomSearch": "Søk etter rom...",
         "roomEmpty": "Fant ingen rom.",
-        "required": "Påkrevd",
+        "required": "Obligatorisk",
         "optional": "Valgfritt",
-        "requiredHint": "Påkrevd: destinasjon, pt-BR-tittel, en-US-tittel, gyldig start og slutt.",
+        "requiredHint": "Obligatorisk: destinasjon, pt-BR-tittel, en-US-tittel, gyldig start og slutt.",
         "optionalHint": "Valgfritt: beskrivelser, bilde, lenke og kunngjøringer.",
         "titlePtBrLabel": "pt-BR-tittel",
         "titleEnUsLabel": "en-US-tittel",
@@ -5936,7 +5936,7 @@
         "table": {
           "bot": "Bot",
           "room": "Rom",
-          "creator": "Oppretter",
+          "creator": "Opprettet av",
           "status": "Status",
           "created": "Opprettet",
           "actions": "Handlinger"
@@ -6077,8 +6077,8 @@
         "currentPrice": "Gjeldende: {price}",
         "sourceOverride": "Panel",
         "sourceFallback": "Reserve",
-        "invalidAmount": "Bruk et gyldig desimalbeløp, for eksempel 4.99.",
-        "fieldHint": "Format for hovedvaluta. Eksempel: 4.99 = 499 cent.",
+        "invalidAmount": "Bruk et gyldig desimalbeløp, for eksempel 4,99.",
+        "fieldHint": "Format for hovedvaluta. Eksempel: 4,99 = 499 cent.",
         "saveTitle": "Lagre overstyringer",
         "saveSubtitle": "Nye betalinger begynner å bruke disse verdiene rett etter at du lagrer.",
         "clearOverrides": "Fjern overstyringer",
@@ -6108,7 +6108,7 @@
           "loadError": "Vi kunne ikke laste katalogkategoripriser.",
           "saveError": "Vi kunne ikke oppdatere denne kategorien akkurat nå.",
           "saveSuccess": "{count, plural, one {# gjenstand ble oppdatert.} other {# gjenstander ble oppdatert.}}",
-          "invalidPrice": "Bruk hele priser mellom 0 og 1 000 000.",
+          "invalidPrice": "Skriv inn en hel pris mellom 0 og 1 000 000.",
           "catalogLabel": "Katalog",
           "collectionLabel": "Kategori",
           "searchCollection": "Søk i kategorier",
@@ -6144,7 +6144,7 @@
           "roleLimits": "Grenser for romroller",
           "roleLimitsDescription": "Styr automatiske grenser for rolletildeling i rom.",
           "miscShop": "Extras-butikk",
-          "miscShopDescription": "Styr bonuser, verktøy, valutaer og tilgjengeligheten av Extras-fanen.",
+          "miscShopDescription": "Styr boosts, verktøy, valutaer og tilgjengeligheten av Extras-fanen.",
           "chatMedia": "Chatfiltre og medier",
           "chatMediaDescription": "Administrer blokkerte ord, globale svartelister for chat-/musikkmedier og tillatelseslisten for innebygd forhåndsvisning.",
           "donation": "Globalt donasjonsmål",
@@ -6183,15 +6183,15 @@
           "modes": {
             "total": {
               "title": "Full Alfa-tilbakestilling",
-              "description": "Tilbakestiller Mynter, Diamanter, nivå, XP, prestasjoner, inventar, merker, boosts, nedkjølinger og utstyrt avatar."
+              "description": "Tilbakestiller Mynter, Diamanter, nivå, XP, prestasjoner, samling, merker, boosts, nedkjølinger og avataren som er i bruk."
             },
             "economy_progress_keep_avatar": {
               "title": "Mynter og nivå",
-              "description": "Tilbakestiller Mynter, nivå, XP og progresjonsnedkjølinger. Beholder avatar, Diamanter, inventar, merker og prestasjoner."
+              "description": "Tilbakestiller Mynter, nivå, XP og progresjonsnedkjølinger. Beholder avatar, Diamanter, samling, merker og prestasjoner."
             },
             "economy_progress_achievements": {
               "title": "Mynter, nivå og prestasjoner",
-              "description": "Tilbakestiller også prestasjonsprogresjon og belønningsmerker. Beholder avatar, Diamanter, inventar og merker som ikke er knyttet til prestasjoner."
+              "description": "Tilbakestiller også prestasjonsprogresjon og belønningsmerker. Beholder avatar, Diamanter, samling og merker som ikke er knyttet til prestasjoner."
             }
           }
         },
@@ -6204,15 +6204,15 @@
         "enabledSuccess": "Vedlikeholdsmodus ble aktivert.",
         "disabledSuccess": "Vedlikeholdsmodus ble deaktivert.",
         "saveError": "Vi kunne ikke oppdatere vedlikeholdsmodus.",
-        "roomDisconnectGraceTitle": "Rommets returvindu",
+        "roomDisconnectGraceTitle": "Returvindu for rom",
         "roomDisconnectGraceSubtitle": "Når noen kobles fra på grunn av internettproblemer, blir de værende i rommet, køen eller DJ-plassen til denne tidtakeren utløper.",
         "roomDisconnectGraceLabel": "Tid for gjentilkobling (minutter)",
         "roomDisconnectGraceHint": "Hvis brukeren ikke kommer tilbake i tide, fjernes de fra rommet og DJ-køen automatisk. Tillatt område: 0,25 til 30 minutter.",
         "roomDisconnectGraceCurrent": "Gjeldende: {minutes} min",
         "roomDisconnectGraceSave": "Lagre tidsstyring",
         "roomDisconnectGraceSaving": "Lagrer...",
-        "roomDisconnectGraceSuccess": "Rommets returvindu ble oppdatert.",
-        "roomDisconnectGraceSaveError": "Vi kunne ikke oppdatere rommets returvindu.",
+        "roomDisconnectGraceSuccess": "Returvinduet for rom ble oppdatert.",
+        "roomDisconnectGraceSaveError": "Vi kunne ikke oppdatere returvinduet for rom.",
         "globalXpCooldownTitle": "Global XP-nedkjøling",
         "globalXpCooldownSubtitle": "Definerer hvor lenge den samme brukeren må vente før vedkommende tjener XP igjen fra romhandlinger.",
         "globalXpCooldownLabel": "XP-nedkjøling (minutter)",
@@ -6222,15 +6222,15 @@
         "globalXpCooldownSaving": "Lagrer...",
         "globalXpCooldownSuccess": "Den globale XP-nedkjølingen ble oppdatert.",
         "globalXpCooldownSaveError": "Vi kunne ikke oppdatere den globale XP-nedkjølingen.",
-        "djPlaybackXpCooldownTitle": "DJ-ens XP-nedkjøling",
+        "djPlaybackXpCooldownTitle": "XP-nedkjøling for DJ",
         "djPlaybackXpCooldownSubtitle": "Definerer hvor lenge den samme brukeren må vente før vedkommende tjener XP igjen som DJ.",
         "djPlaybackXpCooldownLabel": "DJ-nedkjøling (minutter)",
         "djPlaybackXpCooldownHint": "Tillatt område: 0,25 til 60 minutter. Denne sperren gjelder spesifikt DJ-XP og hindrer farming med mange korte spor.",
         "djPlaybackXpCooldownCurrent": "Gjeldende: {minutes} min",
         "djPlaybackXpCooldownSave": "Lagre DJ-nedkjøling",
         "djPlaybackXpCooldownSaving": "Lagrer...",
-        "djPlaybackXpCooldownSuccess": "DJ-ens XP-nedkjøling ble oppdatert.",
-        "djPlaybackXpCooldownSaveError": "Vi kunne ikke oppdatere DJ-ens XP-nedkjøling.",
+        "djPlaybackXpCooldownSuccess": "XP-nedkjølingen for DJ ble oppdatert.",
+        "djPlaybackXpCooldownSaveError": "Vi kunne ikke oppdatere XP-nedkjølingen for DJ.",
         "premiumShopTitle": "Premium-/abonnementsfane i butikken",
         "premiumShopSubtitle": "Styrer om den offentlige butikken viser Premium-/abonnentfanen til brukerne.",
         "premiumShopEnableAria": "Aktiver Premium-fane i butikken",
@@ -6260,7 +6260,7 @@
         "backgroundShopDisabledSuccess": "Bakgrunnsfanen i butikken ble skjult.",
         "backgroundShopSaveError": "Vi kunne ikke oppdatere bakgrunnsfanen i butikken.",
         "miscShopTitle": "Extras-butikk",
-        "miscShopSubtitle": "Administrer bonuser, endring av visningsnavn, egendefinerte romtemaer og andre varer som selges for mynter, diamanter eller ekte penger.",
+        "miscShopSubtitle": "Administrer boosts, endring av visningsnavn, egendefinerte romtemaer og andre varer som selges for mynter, diamanter eller ekte penger.",
         "miscShopFirstChangeFree": "Gratis første endring",
         "miscShopFirstChangeFreeHint": "Når dette er på, kan hver konto gjøre sin første endring av visningsnavn uten å bruke Mynter eller Diamanter.",
         "miscShopToggleAria": "Aktiver Extras-butikk",
@@ -6273,7 +6273,7 @@
         "miscShopSaving": "Lagrer...",
         "miscShopItemId": "Vare-ID",
         "miscShopKind": "Type",
-        "miscShopKindXpBoost": "XP-bonus",
+        "miscShopKindXpBoost": "XP-boost",
         "miscShopKindDisplayName": "Endring av visningsnavn",
         "miscShopKindUsername": "Endring av brukernavn",
         "miscShopKindRoomThemePermanent": "Permanent egendefinert romtema",
@@ -6291,7 +6291,7 @@
         "miscShopPriceCoins": "Pris i Mynter",
         "miscShopPriceDiamonds": "Pris i Diamanter",
         "miscShopCoinsCooldownHours": "Nedkjøling for Mynter",
-        "miscShopRealMoneyPriceHint": "For ekte penger, skriv inn beløpet i cent. Eksempel: 1990 = $19.90.",
+        "miscShopRealMoneyPriceHint": "For ekte penger, skriv inn beløpet i cent. Eksempel: 1990 = $19,90.",
         "miscShopNamePtBr": "Navn PT-BR",
         "miscShopNameEnUs": "Navn EN-US",
         "miscShopDescriptionPtBr": "Beskrivelse PT-BR",
@@ -6401,7 +6401,7 @@
         "roomPollsDisabledSuccess": "Romavstemninger ble deaktivert.",
         "roomPollsSaveError": "Vi kunne ikke oppdatere tilgjengeligheten av romavstemninger.",
         "roomEventsCalendarTitle": "Arrangementskalender for scenen",
-        "roomEventsCalendarSubtitle": "Erstatter det lille pop-overet med en full månedskalender inne i rommet.",
+        "roomEventsCalendarSubtitle": "Erstatter det lille vinduet med en full månedskalender inne i rommet.",
         "roomEventsCalendarEnabledSuccess": "Arrangementskalenderen ble aktivert.",
         "roomEventsCalendarDisabledSuccess": "Arrangementskalenderen ble deaktivert.",
         "roomEventsCalendarSaveError": "Vi kunne ikke oppdatere arrangementskalenderen.",
@@ -6410,8 +6410,8 @@
         "chatImageUploadTtlTitle": "Utløp for midlertidige bilder",
         "chatImageUploadTtlSubtitle": "Bilder som lastes opp nå utløper etter {duration}.",
         "chatImageUploadTtlLabel": "Utløpstid i timer",
-        "chatImageUploadTtlHelp": "Bruk 0.083 for 5 minutter, opptil 168 timer.",
-        "chatImageUploadTtlInvalid": "Bruk en verdi mellom 0.083 og 168 timer.",
+        "chatImageUploadTtlHelp": "Bruk 0,083 for 5 minutter, opptil 168 timer.",
+        "chatImageUploadTtlInvalid": "Bruk en verdi mellom 0,083 og 168 timer.",
         "chatImageUploadTtlSave": "Lagre utløp",
         "chatImageUploadTtlSaving": "Lagrer...",
         "chatImageUploadTtlSuccess": "Utløp for opplasting av chatbilder ble oppdatert.",
@@ -6439,7 +6439,7 @@
         "globalDonationGoalNameEnUsLabel": "Tittel (en-US)",
         "globalDonationGoalNameEnUsPlaceholder": "Example: Help fund the next big update",
         "globalDonationGoalTargetLabel": "Målbeløp",
-        "globalDonationGoalTargetPlaceholder": "Eksempel: 2500.00",
+        "globalDonationGoalTargetPlaceholder": "Eksempel: 2500,00",
         "globalDonationGoalCurrencyLabel": "Valuta",
         "globalDonationGoalLocalizedCurrencyLabel": "Valuta etter språk",
         "globalDonationGoalLocalizedCurrencyHint": "Når dette er aktivert, følger valutaen nettstedets språk: pt-BR -> BRL og en-US -> USD. Bruk manuell valuta hvis du vil ha EUR.",
@@ -6893,7 +6893,7 @@
         "categoryFilterAll": "Alle kategorier",
         "categoryLock": {
           "title": "Lås kategori etter nivå",
-          "description": "Velg en kategori og bruk et minstenivå på alle avatarene i den samtidig. Standardavataren forblir gratis, slik at kontoer alltid beholder et fall-tilbake.",
+          "description": "Velg en kategori og bruk et minstenivå på alle avatarene i den samtidig. Standardavataren forblir gratis, slik at kontoer alltid har et standardvalg.",
           "level": "Nivå",
           "levelPlaceholder": "12",
           "action": "Bruk lås",
@@ -7379,18 +7379,18 @@
         "deleteError": "Vi kunne ikke slette denne rapporten.",
         "details": "Detaljer",
         "detailsTitle": "Sak #{id}",
-        "detailsSubtitle": "Se gjennom hele konteksten og hold interne notater for ansatte.",
+        "detailsSubtitle": "Se gjennom hele konteksten og hold interne notater for teamet.",
         "closeDetails": "Lukk detaljer",
         "createdByLabel": "Rapportør",
         "roomLabel": "Rom",
         "createdAtLabel": "Opprettet",
-        "notesTitle": "Ansattnotater",
+        "notesTitle": "Notater fra teamet",
         "notesSubtitle": "Interne kommentarer for å spore handlinger og avgjørelser i denne saken.",
         "notesEmpty": "Ingen notater er lagt til ennå.",
         "noteCount": "{count, plural, =0 {0 notater} one {# notat} other {# notater}}",
         "addNoteLabel": "Legg til notat",
         "addNotePlaceholder": "F.eks.: Bruker X gjorde Y kl. Z. Jeg advarte dem i chatten og fulgte med i rommet i 10 minutter.",
-        "addNoteHint": "Notater er kun synlige for ansatte med tilgang til rapporter.",
+        "addNoteHint": "Notater er kun synlige for medlemmer av teamet med tilgang til rapporter.",
         "addNote": "Legg til notat",
         "noteSaving": "Lagrer...",
         "noteInvalid": "Skriv et notat på minst 2 tegn.",
@@ -7468,9 +7468,9 @@
           "report_deleted": "Rapport slettet",
           "avatar_catalog_created": "Avatar lagt til",
           "avatar_catalog_deleted": "Avatar fjernet",
-          "room_disconnect_grace_updated": "Rommets returvindu oppdatert",
+          "room_disconnect_grace_updated": "Returvindu for rom oppdatert",
           "xp_global_cooldown_updated": "Global XP-nedkjøling oppdatert",
-          "dj_xp_cooldown_updated": "DJ-ens XP-nedkjøling oppdatert",
+          "dj_xp_cooldown_updated": "XP-nedkjøling for DJ oppdatert",
           "badge_catalog_created": "Merke lagt til",
           "badge_catalog_updated": "Merke oppdatert",
           "achievement_created": "Prestasjon opprettet",
@@ -7523,8 +7523,8 @@
           "progression_bonus_window_updated": "Bonusperiode oppdatert",
           "progression_settings_updated": "Progresjonsinnstillinger oppdatert",
           "room_donation_goal_raised_reset": "Innsamlet for rommets donasjonsmål nullstilt",
-          "user_inventory_item_granted": "Inventargjenstand gitt",
-          "user_inventory_item_removed": "Inventargjenstand fjernet",
+          "user_inventory_item_granted": "Gjenstand lagt til i samlingen",
+          "user_inventory_item_removed": "Gjenstand fjernet fra samlingen",
           "room_role_assignment_limits_updated": "Grenser for tildeling av romroller oppdatert",
           "room_subscription_gifted": "Romabonnement gitt i gave",
           "sitewide_badge_gifted": "Merke gitt til hele nettstedet",
@@ -7655,7 +7655,7 @@
         "banDescription": "Vil du suspendere denne kontoen nå? Brukeren blir koblet fra, og handlingen logges.",
         "banIpAddress": "Utesteng også IP",
         "banIpAddressHint": "Bruker denne brukerens sist registrerte økt-IP og blokkerer ny tilgang fra den IP-en på hele nettstedet.",
-        "unbanTitle": "Fjern suspendering",
+        "unbanTitle": "Fjern suspensjon",
         "unbanDescription": "Vil du reaktivere denne kontoen og tillate innlogging igjen?",
         "deleteUserTitle": "Slett konto",
         "deleteUserDescription": "Vil du slette kontoen til {username} permanent? Økter, spillelister, sosiale relasjoner og egne rom fjernes også. Berørte rom: {count}.",
@@ -7792,8 +7792,8 @@
       "suspendedTitle": "Suspendert fra nettstedet",
       "suspendedSubtitle": "Denne kontoen er for øyeblikket suspendert fra WavezFM.",
       "suspendedReason": "Årsak: {reason}",
-      "suspendedDefaultReason": "Konto utestengt av en administrator.",
-      "suspendedWarningLimitReason": "Konto permanent utestengt etter 3 aktive brudd.",
+      "suspendedDefaultReason": "Kontoen ble suspendert av en administrator.",
+      "suspendedWarningLimitReason": "Kontoen ble permanent suspendert etter 3 aktive brudd.",
       "status": {
         "online": "Pålogget",
         "busy": "Opptatt",
@@ -7821,7 +7821,7 @@
       },
       "badges": {
         "title": "Merker",
-        "subtitle": "Klikk på et merke i samlingen for å vise eller skjule det blant profilhøydepunktene dine.",
+        "subtitle": "Klikk på et merke i samlingen for å vise eller skjule det blant de fremhevede merkene dine.",
         "showInChat": "Vis plass 1 i chatten",
         "showInChatHint": "Når dette er aktivert, vises den første plassen din også i chatten. Slå det av hvis du vil beholde alle de 3 plassene kun til profilen og hurtigprofilen din.",
         "selected": "Valgt",
@@ -7838,7 +7838,7 @@
         "collectionSubtitle": "Alle opplåste merker i en kompakt visning.",
         "collectionCount": "{count, plural, one {# merke} other {# merker}}",
         "selectBadge": "Fremhev {name}",
-        "removeBadge": "Fjern {name} fra høydepunktene",
+        "removeBadge": "Fjern {name} fra de fremhevede merkene",
         "searchLabel": "Søk etter merker",
         "searchPlaceholder": "Søk etter merker med navn, beskrivelse eller ID...",
         "emptySearch": "Ingen merker samsvarte med søket.",
@@ -7946,8 +7946,8 @@
       "emptyHistory": "Kjøpshistorikken din vises her så snart du kjøper noe.",
       "subscription": {
         "title": "Aktivt abonnement",
-        "description": "Abonnementet ditt er aktivt på den {cycle} planen.",
-        "descriptionPrepaid": "Den forhåndsbetalte tilgangen din er aktiv på den {cycle} planen, og nye kjøp legger tid til den nåværende sluttdatoen.",
+        "description": "Abonnementet ditt er aktivt ({cycle}).",
+        "descriptionPrepaid": "Den forhåndsbetalte tilgangen din er aktiv ({cycle}), og nye kjøp legger tid til den nåværende sluttdatoen.",
         "descriptionGifted": "Abonnementet ditt er aktivt gjennom en gave.",
         "statusActive": "Aktiv",
         "statusPrepaid": "Forhåndsbetalt",
@@ -7963,7 +7963,7 @@
         "activeNoDate": "Abonnement aktivt",
         "endsToday": "Avsluttes i dag",
         "daysLeft": "{count, plural, one {# dag igjen} other {# dager igjen}}",
-        "planBadge": "{cycle} plan"
+        "planBadge": "Plan: {cycle}"
       }
     },
     "progression": {
@@ -7979,10 +7979,10 @@
       "next": "Neste",
       "xpProgress": "{current} / {required} XP",
       "xpToNext": "{percent} % til neste nivå",
-      "nextExtra": "Neste ekstra",
-      "nextExtraDescription": "{count, plural, one {# konfigurert ekstra på dette nivået.} other {# konfigurerte ekstraer på dette nivået.}}",
-      "noNextExtra": "Ingen kommende ekstraer",
-      "noNextExtraDescription": "Ingen konfigurert ekstra ble funnet i det innlastede området.",
+      "nextExtra": "Neste Extra",
+      "nextExtraDescription": "{count, plural, one {# konfigurert Extra på dette nivået.} other {# konfigurerte Extras på dette nivået.}}",
+      "noNextExtra": "Ingen kommende Extras",
+      "noNextExtraDescription": "Ingen konfigurert Extra ble funnet i det innlastede området.",
       "supporter": {
         "eyebrow": "Plattformstøtte",
         "title": "Abonnement og gaver",
@@ -8002,8 +8002,8 @@
         "completed": "Fullført"
       },
       "showAll": "Alle",
-      "showExtras": "Kun ekstraer",
-      "noExtra": "Ingen ekstra",
+      "showExtras": "Kun Extras",
+      "noExtra": "Ingen Extra",
       "coinsReward": "{amount} mynter",
       "xpReward": "{amount} XP",
       "diamondsReward": "{amount} diamanter",
@@ -8012,7 +8012,7 @@
       "unlockRangeCount": "{from}-{to} av {total} opplåsinger",
       "hiddenUnlockCount": "+{count, plural, one {# opplåsing konfigurert på dette nivået} other {# opplåsinger konfigurert på dette nivået}}",
       "rewardBadge": "Merke: {badge}",
-      "noFilteredLevels": "Ingen nivåer med konfigurerte ekstraer ble funnet i dette området.",
+      "noFilteredLevels": "Ingen nivåer med konfigurerte Extras ble funnet i dette området.",
       "noAchievements": "Ingen prestasjoner er tilgjengelige å følge.",
       "noUnlocks": "Ingen nivåopplåsinger er konfigurert.",
       "baseCoinsValue": "{base} + {step}/nivå",
@@ -8083,7 +8083,7 @@
       "customRolesTitle": "Egendefinerte globale roller"
     },
     "recentlyPlayed": {
-      "eyebrow": "Musikksporet ditt",
+      "eyebrow": "Musikkhistorikken din",
       "title": "Nylig spilt",
       "subtitle": "Se de siste sporene du spilte som DJ i rom.",
       "emptyTitle": "Ingenting her ennå",
@@ -8160,7 +8160,7 @@
             "i1": "Discord kan oppgi en kontoidentifikator, brukernavn, avatar og autorisasjonsinformasjon når det brukes til innlogging eller kontokobling.",
             "i2": "Last.fm kan oppgi konto- og autorisasjonsinformasjon som brukes til scrobbling når du aktiverer integrasjonen.",
             "i3": "YouTube, SoundCloud, Spotify, Google Drive og andre medietjenester kan oppgi lenker, identifikatorer, metadata, cover, tilgjengelighet og spillelisteinformasjon.",
-            "i4": "Stripe og Mercado Pago oppgir transaksjonsidentifikatorer, betalingsstatus, faktureringssyklus, valuta, beløp og begrenset faktureringsinformasjon som kreves for støtte, regnskap og svindelforebygging."
+            "i4": "Stripe og Mercado Pago oppgir transaksjonsidentifikatorer, betalingsstatus, faktureringssyklus, valuta, beløp og begrenset faktureringsinformasjon som kreves for brukerstøtte, regnskap og svindelforebygging."
           }
         },
         "purposes": {
@@ -8198,7 +8198,7 @@
           },
           "items": {
             "i1": "Tjenesteleverandører som støtter hosting, lagring, innholdslevering, e-post, autentisering, antimisbrukstiltak, medieintegrasjoner og betalingsbehandling.",
-            "i2": "Rommoderatorer og plattformansatte når det trengs for moderering, støtte, sikkerhet, revisjon eller hendelsesundersøkelse.",
+            "i2": "Rompersonale og plattformpersonale når det trengs for moderering, brukerstøtte, sikkerhet, revisjon eller hendelsesundersøkelse.",
             "i3": "Myndigheter, domstoler eller andre parter når det kreves av loven eller med rimelighet er nødvendig for å beskytte rettigheter, sikkerhet, brukere eller Tjenesten.",
             "i4": "En etterfølgende organisasjon ved en fusjon, omstrukturering, finansiering eller overføring av Tjenesten, underlagt passende krav om konfidensialitet og varsel."
           }
@@ -8207,7 +8207,7 @@
           "title": "9. Offentlige og sosiale områder",
           "paragraphs": {
             "p1": "Brukernavn, visningsnavn, avatarer, merker, offentlige biografier, romaktivitet, chatmeldinger, reaksjoner, spilleliste- eller rominformasjon og annet innhold du velger å publisere, kan være synlig for andre brukere avhengig av innstillingene dine og funksjonen som brukes.",
-            "p2": "Ikke publiser personlig eller konfidensiell informasjon du ikke vil at andre skal se. Rompersonvern og profilkontroller reduserer synligheten, men kan ikke hindre en annen person i å ta opp eller dele innhold de har tilgang til."
+            "p2": "Ikke publiser personlig eller konfidensiell informasjon du ikke vil at andre skal se. Personverninnstillinger for rom og profil reduserer synligheten, men kan ikke hindre en annen person i å ta opp eller dele innhold de har tilgang til."
           }
         },
         "retention": {
@@ -8303,7 +8303,7 @@
             "i1": "Opprette og bli med i offentlige eller private lytterom.",
             "i2": "Synkronisere avspilling fra støttede tredjeparts mediekilder.",
             "i3": "Opprette, importere, organisere og dele spillelister.",
-            "i4": "Bruke chat, hvisk, reaksjoner, profiler, følginger, avstemninger, utlodninger og andre fellesskapsfunksjoner.",
+            "i4": "Bruke chat, hvisk, reaksjoner, profiler, følging av andre, avstemninger, utlodninger og andre fellesskapsfunksjoner.",
             "i5": "Delta i DJ-køer, stemmer, rommoderering og romboter i henhold til tillatelser.",
             "i6": "Kjøpe abonnementer, virtuelle gjenstander, tillegg, gaver eller gi donasjoner når det er tilgjengelig."
           }
@@ -8346,8 +8346,8 @@
         "rooms": {
           "title": "6. Rom og moderering",
           "paragraphs": {
-            "p1": "Romeiere og autoriserte moderatorer kan opprette og håndheve romspesifikke regler, forutsatt at reglene ikke er i strid med disse vilkårene eller plattformens retningslinjer. Brukere må følge legitime modereringsinstruksjoner og tillatelsesgrenser.",
-            "p2": "WavezFM og autoriserte moderatorer kan gjennomgå rapporter og anvende advarsler, midlertidige dempinger, købegrensninger, fjerninger, utestengelser, innholdssletting, funksjonsbegrensninger eller suspensjon av konto. Tiltak kan iverksettes umiddelbart der det trengs for sikkerhet, trygghet, juridisk overholdelse eller tjenestens integritet."
+            "p1": "Romeiere og autorisert rompersonale kan opprette og håndheve romspesifikke regler, forutsatt at reglene ikke er i strid med disse vilkårene eller plattformens retningslinjer. Brukere må følge legitime modereringsinstruksjoner og tillatelsesgrenser.",
+            "p2": "WavezFM og autorisert personale kan gjennomgå rapporter og anvende advarsler, midlertidige dempinger, købegrensninger, fjerninger, utestengelser, innholdssletting, funksjonsbegrensninger eller suspensjon av konto. Tiltak kan iverksettes umiddelbart der det trengs for sikkerhet, trygghet, juridisk overholdelse eller tjenestens integritet."
           }
         },
         "userContent": {
@@ -8387,7 +8387,7 @@
           "title": "11. Betalinger, abonnementer, gaver og donasjoner",
           "paragraphs": {
             "p1": "Priser, valuta, faktureringsintervall, skatter og avgifter, fornyelsesvilkår og inkluderte fordeler vises før betaling. Betalinger behandles av tredjepartsleverandører som Stripe eller Mercado Pago og er også underlagt deres vilkår.",
-            "p2": "Løpende abonnementer fornyes til de kanselleres gjennom den tilgjengelige administrasjonsflyten. Kansellering forhindrer normalt fremtidig fornyelse og opphever ikke den nåværende betalte perioden med tilbakevirkende kraft. Engangsgaver, virtuelle gjenstander, tillegg og donasjoner fornyes ikke med mindre betalingsprosessen uttrykkelig oppgir noe annet."
+            "p2": "Løpende abonnementer fornyes til de avsluttes gjennom den tilgjengelige administrasjonsflyten. Å avslutte abonnementet hindrer normalt fremtidige fornyelser og opphever ikke den nåværende betalte perioden med tilbakevirkende kraft. Engangsgaver, virtuelle gjenstander, tillegg og donasjoner fornyes ikke med mindre betalingsprosessen uttrykkelig oppgir noe annet."
           },
           "items": {
             "i1": "Du autoriserer den viste belastningen og bekrefter at du kan bruke den valgte betalingsmåten.",
@@ -8406,7 +8406,7 @@
         "privacy": {
           "title": "13. Personvern",
           "paragraphs": {
-            "p1": "Personvernerklæringen forklarer hvordan personopplysninger behandles, og retningslinjene for informasjonskapsler forklarer bruken av informasjonskapsler og lignende lagring. Ved å bruke Tjenesten anerkjenner du de merknadene."
+            "p1": "Personvernerklæringen forklarer hvordan personopplysninger behandles, og retningslinjene for informasjonskapsler forklarer bruken av informasjonskapsler og lignende lagring. Ved å bruke Tjenesten bekrefter du at du er kjent med disse erklæringene."
           }
         },
         "availability": {
@@ -8439,7 +8439,7 @@
         "termination": {
           "title": "18. Suspensjon og oppsigelse",
           "paragraphs": {
-            "p1": "Du kan slutte å bruke Tjenesten og be om sletting av kontoen gjennom tilgjengelige innstillinger eller støtte. Utestående betalings-, modererings-, juridiske eller sikkerhetsmessige forhold kan måtte løses først.",
+            "p1": "Du kan slutte å bruke Tjenesten og be om sletting av kontoen gjennom tilgjengelige innstillinger eller brukerstøtten. Utestående betalings-, modererings-, juridiske eller sikkerhetsmessige forhold kan måtte løses først.",
             "p2": "WavezFM kan begrense, suspendere eller avslutte tilgang ved brudd, risiko, lovkrav, manglende betaling, svindel, tjenesteavvikling eller for å beskytte brukere og infrastruktur. Bestemmelser om immaterielle rettigheter, betalinger, ansvar, tvister og nødvendig lagring av data gjelder etter oppsigelse."
           }
         },
@@ -8478,23 +8478,23 @@
     "cookiesPolicy": {
       "back": "Tilbake",
       "title": "Retningslinjer for informasjonskapsler",
-      "intro": "Denne siden forklarer hvilke informasjonskapsler WavezFM bruker i dag, hva de er til for, og hvordan samtykkevalget ditt påvirker innstillingskapsler på nettstedet.",
+      "intro": "Denne siden forklarer hvilke informasjonskapsler WavezFM bruker i dag, hva de er til for, og hvordan samtykkevalget ditt påvirker informasjonskapsler for innstillinger på nettstedet.",
       "sections": {
         "essential": {
           "title": "1. Nødvendige informasjonskapsler",
           "body": "Noen informasjonskapsler er nødvendige for innlogging, sikkerhet, øktkontinuitet og grunnleggende drift av innloggede områder. Disse informasjonskapslene er en del av driften av tjenesten."
         },
         "preferences": {
-          "title": "2. Innstillingskapsler",
-          "body": "WavezFM bruker en språkkapsel for å beholde det valgte språket ditt mellom besøk og innlastinger. Andre grensesnittinnstillinger, som tilstanden til sidefeltet, avhenger fortsatt av samtykket ditt."
+          "title": "2. Informasjonskapsler for innstillinger",
+          "body": "WavezFM bruker en informasjonskapsel for språk for å beholde det valgte språket ditt mellom besøk og innlastinger. Andre grensesnittinnstillinger, som tilstanden til sidefeltet, avhenger fortsatt av samtykket ditt."
         },
         "thirdParties": {
           "title": "3. Leverandører og integrasjoner",
-          "body": "Noen deler av plattformen kan være avhengige av eksterne leverandører for autentisering, drift, lyd, video eller sikkerhet. Disse tjenestene kan kreve tekniske informasjonskapsler for å fungere som de skal."
+          "body": "Noen deler av plattformen kan være avhengige av eksterne leverandører for autentisering, hosting, lyd, video eller sikkerhet. Disse tjenestene kan kreve tekniske informasjonskapsler for å fungere som de skal."
         },
         "choices": {
           "title": "4. Ditt valg",
-          "body": "Hvis du avviser informasjonskapsler, slutter WavezFM å lagre innstillinger som ikke er nødvendige, som tilstanden til sidefeltet, og fjerner dem den kan styre direkte. Språkkapselen kan fortsatt brukes slik at produktet respekterer det valgte språket ditt."
+          "body": "Hvis du avviser informasjonskapsler, slutter WavezFM å lagre innstillinger som ikke er nødvendige, som tilstanden til sidefeltet, og fjerner dem den kan styre direkte. Informasjonskapselen for språk kan fortsatt brukes slik at produktet respekterer det valgte språket ditt."
         }
       }
     }

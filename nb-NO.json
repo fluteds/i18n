@@ -992,7 +992,7 @@
           "maxTrackDurationPlaceholder": "0, 390, 6:30, 6m 30s",
           "maxTrackDurationError": "Bruk sekunder eller formater som 6:30, 6m 30s eller 6m30s.",
           "allowYouTubeLives": "Tillat YouTube-direktesendinger",
-          "allowYouTubeLivesHint": "Når aktivert kan rommet spille av YouTube-direktesendinger. Når deaktivert blokkeres de før avspilling.",
+          "allowYouTubeLivesHint": "Når dette er aktivert, godtar rommet YouTube-direktesendinger i køen og avspilleren. Når det er deaktivert, blokkeres de før avspillingen starter.",
           "privateRoom": "Privat rom",
           "privateRoomHint": "Kun inviterte eller autoriserte brukere kan bli med.",
           "nsfw": "NSFW-innhold",
@@ -1104,7 +1104,7 @@
             "dj": "DJ",
             "djHint": "Beholder dagens atferd: XP er knyttet til DJ-en eller den som styrer direktesendingen.",
             "room": "Alle i rommet",
-            "roomHint": "Alle tilkoblede brukere mottar XP med jevne mellomrom mens direktesendingen er aktiv."
+            "roomHint": "Ekte brukere som er tilkoblet rommet, tjener XP med jevne mellomrom mens direktesendingen spilles."
           },
           "commandAnnouncements": "Kunngjør kommandoer",
           "commandAnnouncementsHint": "Vis moderatorhandlinger utført med slash-kommandoer som automatiske meldinger i chatten.",
@@ -1457,7 +1457,7 @@
           },
           "mention_room": {
             "label": "Nevn rom/roller",
-            "description": "Tillater bruk av @everyone og rollenavn som @residentdj og @manager."
+            "description": "Tillater bruk av @alle og rollenevninger som @fastdj og @leder."
           },
           "manage_roles": {
             "label": "Administrer roller",
@@ -4905,7 +4905,7 @@
           "giftMonthsHint": "Velg mellom 1 og 12 måneder. Tiden legges oppå et abonnement som allerede er aktivt.",
           "giftAnnouncementLabel": "Vis i romchatten",
           "giftAnnouncementHint": "Når dette er aktivert, kunngjøres gaven i chatten til {room}.",
-          "giftAnnouncementUnavailable": "Åpne administrasjonspanelet inne i et rom hvis du vil vise denne gaven i chatten.",
+          "giftAnnouncementUnavailable": "Brukeren må være i et aktivt rom for å vise denne gaven i chatten.",
           "gifting": "Gir abonnement...",
           "giftAction": "Gi abonnement",
           "giftSuccess": "{username} mottok {months} gaveabonnementsmåned(er).",
@@ -4947,7 +4947,7 @@
           "amountLabel": "Beløp",
           "announceLabel": "Vis i romchatten",
           "announceHint": "Når dette er aktivert, vises gaven i chatten til {room}.",
-          "announceUnavailable": "Åpne administrasjonspanelet inne i et rom for å vise denne gaven i chatten.",
+          "announceUnavailable": "Brukeren må være i et aktivt rom for å vise denne gaven i chatten.",
           "action": "Send gave",
           "gifting": "Sender gave...",
           "success": "{username} mottok {amount} {currency}.",
@@ -4956,7 +4956,7 @@
         "walletAnnouncement": {
           "label": "Kunngjør mynter og diamanter i romchatten",
           "hint": "Hvis mynter eller diamanter endres når du lagrer, kunngjør WavezFM oppdateringen i chatten til {room}.",
-          "unavailable": "Åpne administrasjonspanelet inne i et rom hvis du vil kunngjøre disse endringene i chatten."
+          "unavailable": "Brukeren må være i et aktivt rom for å kunngjøre disse endringene i chatten."
         },
         "roomAnnouncementTarget": {
           "label": "Kunngjøringsrom",
